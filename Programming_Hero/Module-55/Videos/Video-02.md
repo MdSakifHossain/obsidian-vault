@@ -1,6 +1,7 @@
-# Module 55 Video 2
+# 55-2 Recap Connect MongoDB , Recap Post API
 
 ⬅️ [Module 55](../Module-55.md)
+
 
 > START
 
@@ -13,7 +14,9 @@
 - [ ] create `POST /products`
 - [ ] create a new `Document` aka `Product` from `req.body`
 - [ ] insert the new product in the `DB`. NO SANITIZATION OR CHECK NEEDED. just blindly believe that whatever is coming is authentic
-- [ ] the response of the DB insertion will be in the `res.status().json(result)`
+- [ ] the response of the DB insertion will be in the `res.send(result)`
+- [ ] create a `DELETE /products/:id`
+- [ ] extract ID form the body of the `request`
 
 > END
 
