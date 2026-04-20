@@ -1,8 +1,8 @@
 {
-  "theme": "obsidian",
+  "theme": "moonstone",
   "accentColor": "",
-  "cssTheme": "Hackthebox",
-  "textFontFamily": "GeistMono Nerd Font",
+  "cssTheme": "GitHub Theme",
+  "textFontFamily": "Inter",
   "monospaceFontFamily": "GeistMono Nerd Font",
   "baseFontSize": 16,
   "interfaceFontFamily": "Inter"
