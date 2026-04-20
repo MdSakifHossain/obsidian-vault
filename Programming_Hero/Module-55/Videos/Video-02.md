@@ -16,3 +16,8 @@
 - [ ] the response of the DB insertion will be in the `res.status().json(result)`
 
 > END
+
+## Navigation
+
+⬅️ [Video-01](./Video-01.md)
+➡️ [Video-03](./Video-03.md)

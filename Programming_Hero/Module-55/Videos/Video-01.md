@@ -15,3 +15,8 @@
 - [ ] install API Client for testing
 
 > END
+
+## Navigation
+
+⬅️ [Video-10](./Video-10.md)
+➡️ [Video-02](./Video-02.md)
