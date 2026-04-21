@@ -1,9 +1,9 @@
 {
   "theme": "obsidian",
   "accentColor": "",
-  "cssTheme": "Wasp",
-  "textFontFamily": "Inter",
-  "monospaceFontFamily": "GeistMono Nerd Font",
+  "cssTheme": "GitHub Theme",
+  "textFontFamily": "GeistMono Nerd Font Mono",
+  "monospaceFontFamily": "GeistMono Nerd Font Mono",
   "baseFontSize": 16,
-  "interfaceFontFamily": "Inter"
+  "interfaceFontFamily": ""
 }
