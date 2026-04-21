@@ -17,15 +17,51 @@ const bidsCollection = db.collection("bids");
 app.get("/bids", async (req, res) => {
   // hit the db
   const result = await bidsCollection.find({}).toArray();
-  
+
   // send the result
-  
-})
+  res.send(result);
+});
 ```
 
-- [ ] asdf
-- [ ] asdf
-- [ ] asdf
+- [ ] add the query param check in the `GET /bids` endpoint:
+
+```js
+app.get("/bids", async (req, res) => {
+  // there could be or could not be Email
+  const email = req.query.email;
+
+  // if email is there in the query, inject it to the empty query object
+  const query = {};
+  if (email) {
+    query.buyer_email = email;
+  }
+
+  // hit the db
+  const result = await bidsCollection.find(query).toArray();
+
+  // send the result
+  res.send(result);
+});
+```
+
+- [ ] Create a `POST /bids` endpoint:
+
+```js
+app.post("bids", async (req, res) => {
+  // information from the body
+  const newBid = req.body;
+
+  // hit the database
+  const result = await bidsCollection.insertOne(newBid);
+
+  // send it to the client
+  res.send(result);
+});
+```
+
+- [ ] Create a `DELETE /bids/:id` endpoint
+- [ ] Create a single bid by ID, `GET /bid/:id` endpoint
+- [ ] Create the UI with react, tailwind && others.
 
 > END
 
