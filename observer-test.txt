@@ -1,3 +1,4 @@
 this is just a test file
 
 - something added to check the observer again
+- new checkpoint interval model checking
