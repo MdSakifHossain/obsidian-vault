@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a4578a4a0c5525d0",
+        "id": "c42d16aba230d39c",
         "type": "tabs",
         "children": [
           {
-            "id": "6421ff7a00176ea5",
+            "id": "2a2a5d7abd62940e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Programming_Hero/Module-55/Videos/Video-08.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Video-08"
             }
           }
         ],
@@ -179,18 +183,21 @@
       "bases:Create new base": false
     }
   },
-  "active": "6421ff7a00176ea5",
+  "active": "2a2a5d7abd62940e",
   "lastOpenFiles": [
+    "zzzSANDBOX/firebase.init.js",
+    "Programming_Hero/Module-55/Videos/Video-08.md",
+    "Programming_Hero/Module-55/Module-55.md",
+    "Programming_Hero/Programming_Hero.md",
+    "Programming_Hero/Module-55/Videos/Video-10.md",
+    "Programming_Hero/Module-55/Videos/Video-09.md",
     "Academic-Materials/Academic-Materials.md",
     "VSCode/Fresh-VSCode-Install.md",
-    "Programming_Hero/Module-55/Videos/Video-08.md",
     "Academic-Materials",
     "Programming_Hero/Module-55/Videos/Video-07.md",
     "Programming_Hero/Module-55/Videos/Video-06.md",
     "Programming_Hero/Module-55/Videos/Video-05.md",
     "Programming_Hero/Module-55/Videos/Video-04.md",
-    "Programming_Hero/Module-55/Module-55.md",
-    "Programming_Hero/Programming_Hero.md",
     "Programming_Hero/Module-55/Videos/Video-02.md",
     "README.md",
     "Linux/Ubuntu/Ubuntu.md",
@@ -206,12 +213,9 @@
     "Programming_Hero/Module-55/Videos/Video-01.md",
     "Programming_Hero/Module-57/Module-57.md",
     "Programming_Hero/Module-56/Module-56.md",
-    "Programming_Hero/Templates.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "ubuntu",
-    "VSCode/Hide-a-Folder.md",
-    "VSCode/VSCode.md",
     "VSCode/Unconfirmed 32557.crdownload",
     "VSCode/Unconfirmed 668892.crdownload",
     "VSCode",

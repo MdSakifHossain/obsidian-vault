@@ -1,6 +1,6 @@
 {
   "showInlineTitle": true,
-  "spellcheck": true,
+  "spellcheck": false,
   "showLineNumber": true,
   "foldIndent": false,
   "foldHeading": true,
