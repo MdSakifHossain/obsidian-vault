@@ -20,4 +20,5 @@ The Graph is SO COOL
 - Hulk
 - LYT Mode
 - Lemost Theme
+- Material Ocean
 - 
