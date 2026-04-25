@@ -4,4 +4,7 @@ The Graph is SO COOL
 
 ## Themes
 - Allium
+- Arcane
+- Aurora
+- Border
 - 
