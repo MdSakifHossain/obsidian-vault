@@ -4,4 +4,7 @@
 # .obsidian/graph.json
 
 # Downloaded themes
-.obsidian/themes/
+# .obsidian/themes/
+
+# Whole Obsidian
+.obsidian/
