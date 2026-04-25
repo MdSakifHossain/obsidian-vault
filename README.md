@@ -13,5 +13,8 @@ The Graph is SO COOL
 - Consolas
 - Dracula + LYT
 - Dracula Official
-- Dracula Plus
+- Dracula for Obsidian
+- Everforest
+- GitHub Theme
+- Hackthebox
 - 
