@@ -22,4 +22,7 @@ The Graph is SO COOL
 - Lemost Theme
 - Material Ocean
 - Minimal-Dark-Coder
+- Neon Synthwave
+- Novadust
+- OISTNB
 - 
