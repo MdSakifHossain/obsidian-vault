@@ -21,4 +21,5 @@ The Graph is SO COOL
 - LYT Mode
 - Lemost Theme
 - Material Ocean
+- Minimal-Dark-Coder
 - 
