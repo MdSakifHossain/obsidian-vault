@@ -25,4 +25,6 @@ The Graph is SO COOL
 - Neon Synthwave
 - Novadust
 - OISTNB
+- Omega
+- Orange
 - 
