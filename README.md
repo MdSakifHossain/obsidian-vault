@@ -17,4 +17,7 @@ The Graph is SO COOL
 - Everforest
 - GitHub Theme
 - Hackthebox
+- Hulk
+- LYT Mode
+- Lemost Theme
 - 
