@@ -10,4 +10,8 @@ The Graph is SO COOL
 - Borealis
 - Brutalism
 - Catppuccin
+- Consolas
+- Dracula + LYT
+- Dracula Official
+- Dracula Plus
 - 
