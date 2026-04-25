@@ -28,4 +28,6 @@ The Graph is SO COOL
 - Omega
 - Orange
 - Pine Forest Berry
+- Retro Windows
+- RetroOS 98
 - 
