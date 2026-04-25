@@ -7,4 +7,7 @@ The Graph is SO COOL
 - Arcane
 - Aurora
 - Border
+- Borealis
+- Brutalism
+- Catppuccin
 - 
