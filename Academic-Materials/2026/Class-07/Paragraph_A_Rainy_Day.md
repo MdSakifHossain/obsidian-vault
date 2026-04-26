@@ -1,8 +1,16 @@
 # Paragraph: A Rainy Day
 
-## Answer the following questions into a continuous paragraph on 'A Rainy Day'.
-`What is a rainy day? (b) What happens on a rainy day? (c) What happens to roads, fields, tanks, etc? (d) What troubles does it bring to the people? (e) How do school boys and girls feel on a rainy day? (f) What are the troubles for the cattle? (g) What happens to the poor?
-Ans.
+## Questions for paragraph on 'A Rainy Day'
+
+1. What is a rainy day?
+2. What happens on a rainy day?
+3. What happens to roads, fields, tanks, etc?
+4. What troubles does it bring to the people?
+5. How do school boys and girls feel on a rainy day?
+6. What are the troubles for the cattle?
+7. What happens to the poor?
+
+## Ans
 
 ### A Rainy Day
 
