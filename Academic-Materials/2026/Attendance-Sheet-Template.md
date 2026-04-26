@@ -27,14 +27,8 @@
 
 ## Additional Notes
 
-### 5:
-
-> Holiday (Eid)
-
-### 6:
-
-> Personal leave
-
-### (12 - 15):
-
-> Weather issue
+| Date | Note           |
+| ---- | -------------- |
+| 5    | Holiday (Eid)  |
+| 6    | Personal leave |
+| 12   | Weather issue  |
