@@ -27,14 +27,14 @@
 
 ## Additional Notes
 
-- 5:
-  *Holiday (Eid)*
+### 5:
 
-- 6:
-  *Personal leave*
+> Holiday (Eid)
 
-- 12:
-  Weather issue
+### 6:
 
-- (13 - 15):
-  Weather issue
+> Personal leave
+
+### (12 - 15):
+
+> Weather issue
