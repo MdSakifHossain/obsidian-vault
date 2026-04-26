@@ -1,4 +1,4 @@
-# Attendance April 2026
+# Attendance - Month_Variable Year_Variable
 
 ## System Codes
 
@@ -13,17 +13,8 @@
 
 | Name      | Class | 1<br>`(Sat)` | 2<br>`(Sun)` | 3<br>`(Mon)` | 4<br>`(Tue)` | 5<br>`(Wed)` | 6<br>`(Thu)` | 7<br>`(Fri)` | Total |
 | :-------- | :---: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :---: |
-| Liza      |   7   |              |              |              |              |              |              |              |       |
-| Shihab    |   7   |              |              |              |              |              |              |              |       |
-| Drishty   |   7   |              |              |              |              |              |              |              |       |
-| Nishan    |   5   |              |              |              |              |              |              |              |       |
-| Nusrat    |   4   |              |              |              |              |              |              |              |       |
-| Shonamoni |   3   |              |              |              |              |              |              |              |       |
-| Yasmin    |   3   |              |              |              |              |              |              |              |       |
-| Omor      |   1   |              |              |              |              |              |              |              |       |
-| Habiba    | null  |              |              |              |              |              |              |              |       |
-| Jakirun   |  10   |              |              |              |              |              |              |              |       |
-| Alif      |   2   |              |              |              |              |              |              |              |       |
+| Student-A |       |              |              |              |              |              |              |              |       |
+| Student-B |       |              |              |              |              |              |              |              |       |
 
 ## Additional Notes
 
