@@ -10,7 +10,7 @@
 6. What are the troubles for the cattle?
 7. What happens to the poor?
 
-## Ans
+## Answer
 
 ### A Rainy Day
 
@@ -18,31 +18,23 @@ A rainy day is a day when it rains all day long. On a rainy day, the sky looks g
 
 ### Word Meaning
 
-rainy – বৃষ্টিপূর্ণ, বাদলা, বর্ষণমুখর
-gloomy - অন্ধকার, বিষণ্ণ
-cover - আবৃত, ঢাকা
-
----
-
-cloud - মেঘ
-heavily – অঝোরে
-field – মাঠ
-tank – জলাধার
-destruction – ধ্বংস
-valuable – মূল্যবান, দামি
-property – সম্পত্তি
-crop — শস্য
-uproot – উপড়ানো
-damage – ক্ষতি, লোকসান, হানি
-cattle – গবাদি পশু
-poor – গরিব
-rich – ধনী
-starve – অনাহারে থাকা
-welcoming – সাদরে গৃহীত
-
-| Word      | Meaning                       |
-| --------- | ----------------------------- |
-| Rainy     | বৃষ্টিপূর্ণ, বাদলা, বর্ষণমুখর |
-| Gloomy    | অন্ধকার, বিষণ্ণ               |
-| cover     | আবৃত, ঢাকা                    |
-| cloud<br> | মেঘ                           |
+| Word        | Meaning                       |
+| ----------- | ----------------------------- |
+| Rainy       | বৃষ্টিপূর্ণ, বাদলা, বর্ষণমুখর |
+| Gloomy      | অন্ধকার, বিষণ্ণ               |
+| cover       | আবৃত, ঢাকা                    |
+| cloud       | মেঘ                           |
+| heavily     | অঝোরে                         |
+| field       | মাঠ                           |
+| tank        | জলাধার                        |
+| destruction | ধ্বংস                         |
+| valuable    | মূল্যবান, দামি                |
+| property    | সম্পত্তি                      |
+| crop        | শস্য                          |
+| uproot      | উপড়ানো                       |
+| damage      | ক্ষতি, লোকসান, হানি           |
+| cattle      | গবাদি পশু                     |
+| poor        | গরিব                          |
+| rich        | ধনী                           |
+| starve      | অনাহারে থাকা                  |
+| welcoming   | সাদরে গৃহীত                   |
