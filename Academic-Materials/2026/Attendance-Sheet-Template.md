@@ -17,9 +17,7 @@
 | Student-B |       |              |              |              |              |              |              |              |       |
 
 ## Additional Notes
-
 | Day of the Month | Note              |
 | :--------------: | :---------------- |
-|        5         | Note will be here |
-|        6         | Note will be here |
-|     12 - 15      | Note will be here |
+|        x         | Note will be here |
+|     yy - zz      | Note will be here |
