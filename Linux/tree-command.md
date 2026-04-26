@@ -32,6 +32,8 @@ Generate a formatted HTML file with clickable links for the `vault` directory.
 tree ./vault -H ./vault -o vault_tree.html
 ```
 
+### Explanation
+
 The command `tree ./vault -H ./vault -o vault_tree.html` generates a self-contained HTML file with a clickable directory tree.
 
 - **`-H ./vault`**: This flag enables **HTML output**. The `./vault` argument specifies the "base HREF" (hypertext reference). This tells the generated HTML how to create hyperlinks for the files and directories, making them clickable. You provide the path twice because the first `./vault` tells `tree` _what directory to list_, and the second `./vault` tells it _how to label the root of the HTML page_.
