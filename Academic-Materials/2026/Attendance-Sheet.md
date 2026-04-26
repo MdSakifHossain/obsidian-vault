@@ -9,7 +9,17 @@
 | `X`  | No class (any reason) |
 | `N`  | Not joined yet        |
 
-## Copy / Paste
+## Copy-Paste
+
+| Day       | Shorter |
+| --------- | ------- |
+| Saturday  | `(Sat)` |
+| Sunday    |         |
+| Monday    |         |
+| Tuesday   |         |
+| Wednesday |         |
+| Thursday  |         |
+| Friday    |         |
 
 ## Sheet
 
