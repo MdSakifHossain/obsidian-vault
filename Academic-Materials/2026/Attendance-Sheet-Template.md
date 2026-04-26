@@ -27,8 +27,8 @@
 
 ## Additional Notes
 
-| Date | Note           |
-| ---- | -------------- |
-| 5    | Holiday (Eid)  |
-| 6    | Personal leave |
-| 12   | Weather issue  |
+| Date | Note                                                                                                                                                 |
+| ---- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 5    | Holiday (Eid)                                                                                                                                        |
+| 6    | Personal leave                                                                                                                                       |
+| 12   | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sollicitudin enim non consectetur sollicitudin. Nulla eros libero, dictum vel mattis. |
