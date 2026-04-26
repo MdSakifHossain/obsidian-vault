@@ -33,4 +33,8 @@ The Graph is SO COOL
 - Sea Glass
 - Seamless View
 - Soloing
+- Space
+- Synthwave '84
+- Terminal2K
+- Tom's Theme
 - 
