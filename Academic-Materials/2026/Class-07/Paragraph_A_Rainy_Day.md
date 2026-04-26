@@ -21,6 +21,9 @@ A rainy day is a day when it rains all day long. On a rainy day, the sky looks g
 rainy – বৃষ্টিপূর্ণ, বাদলা, বর্ষণমুখর
 gloomy - অন্ধকার, বিষণ্ণ
 cover - আবৃত, ঢাকা
+
+---
+
 cloud - মেঘ
 heavily – অঝোরে
 field – মাঠ
@@ -37,7 +40,9 @@ rich – ধনী
 starve – অনাহারে থাকা
 welcoming – সাদরে গৃহীত
 
-| Word   | Meaning                       |
-| ------ | ----------------------------- |
-| rainy  | বৃষ্টিপূর্ণ, বাদলা, বর্ষণমুখর |
-| gloomy | অন্ধকার, বিষণ্ণ               |
+| Word      | Meaning                       |
+| --------- | ----------------------------- |
+| Rainy     | বৃষ্টিপূর্ণ, বাদলা, বর্ষণমুখর |
+| Gloomy    | অন্ধকার, বিষণ্ণ               |
+| cover     | আবৃত, ঢাকা                    |
+| cloud<br> | মেঘ                           |
