@@ -2,8 +2,6 @@
 
 ## Application: Prayer for leave of Absence
 
-### Metadata
-
 | key               | value                       |
 | ----------------- | --------------------------- |
 | Student Name      | Nusrat Jahan                |
