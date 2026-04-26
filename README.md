@@ -30,4 +30,7 @@ The Graph is SO COOL
 - Pine Forest Berry
 - Retro Windows
 - RetroOS 98
+- Sea Glass
+- Seamless View
+- Soloing
 - 
