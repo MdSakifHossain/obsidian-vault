@@ -24,14 +24,14 @@ A rainy day is a day when it rains all day long. On a rainy day, the sky looks g
 | Gloomy      | অন্ধকার, বিষণ্ণ               |
 | Cover       | আবৃত, ঢাকা                    |
 | Cloud       | মেঘ                           |
-| Heavily     | অঝোরে                         |
+| Heavily     | ভারী, অঝোরে                   |
 | Field       | মাঠ                           |
 | Tank        | জলাধার                        |
 | Destruction | ধ্বংস                         |
 | Valuable    | মূল্যবান, দামি                |
 | Property    | সম্পত্তি                      |
 | Crop        | শস্য                          |
-| Uproot      | উপড়ানো                       |
+| Uproot      | উপড়ে ফেলা, উপড়ানো           |
 | Damage      | ক্ষতি, লোকসান, হানি           |
 | Cattle      | গবাদি পশু                     |
 | Poor        | গরিব                          |
