@@ -22,19 +22,19 @@ A rainy day is a day when it rains all day long. On a rainy day, the sky looks g
 | ----------- | ----------------------------- |
 | Rainy       | বৃষ্টিপূর্ণ, বাদলা, বর্ষণমুখর |
 | Gloomy      | অন্ধকার, বিষণ্ণ               |
-| cover       | আবৃত, ঢাকা                    |
-| cloud       | মেঘ                           |
-| heavily     | অঝোরে                         |
-| field       | মাঠ                           |
-| tank        | জলাধার                        |
-| destruction | ধ্বংস                         |
-| valuable    | মূল্যবান, দামি                |
-| property    | সম্পত্তি                      |
-| crop        | শস্য                          |
-| uproot      | উপড়ানো                       |
-| damage      | ক্ষতি, লোকসান, হানি           |
-| cattle      | গবাদি পশু                     |
-| poor        | গরিব                          |
-| rich        | ধনী                           |
-| starve      | অনাহারে থাকা                  |
-| welcoming   | সাদরে গৃহীত                   |
+| Cover       | আবৃত, ঢাকা                    |
+| Cloud       | মেঘ                           |
+| Heavily     | অঝোরে                         |
+| Field       | মাঠ                           |
+| Tank        | জলাধার                        |
+| Destruction | ধ্বংস                         |
+| Valuable    | মূল্যবান, দামি                |
+| Property    | সম্পত্তি                      |
+| Crop        | শস্য                          |
+| Uproot      | উপড়ানো                       |
+| Damage      | ক্ষতি, লোকসান, হানি           |
+| Cattle      | গবাদি পশু                     |
+| Poor        | গরিব                          |
+| Rich        | ধনী                           |
+| Starve      | অনাহারে থাকা                  |
+| Welcoming   | সাদরে গৃহীত                   |
