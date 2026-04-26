@@ -28,13 +28,13 @@
 ## Additional Notes
 
 - 5:
-  Holiday (Eid)
+  *Holiday (Eid)*
 
 - 6:
-  Personal leave
+  *Personal leave*
 
 - 12:
   Weather issue
 
-- 12:
+- (13 - 15):
   Weather issue
