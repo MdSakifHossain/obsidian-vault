@@ -37,4 +37,10 @@ The Graph is SO COOL
 - Synthwave '84
 - Terminal2K
 - Tom's Theme
+- Tyrone Neon
+- Ultra Lobster
+- W95
+- Wasp
+- Wikipedia
+- Wombat
 - 
