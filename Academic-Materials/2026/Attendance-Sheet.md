@@ -11,13 +11,47 @@
 
 ## Copy-Paste
 
-| Saturday  | `(Sat)` |
-| Sunday    | `(Sun)` |
-| Monday    | `(Mon)` |
-| Tuesday   | `(Tue)` |
-| Wednesday | `(Wed)` |
-| Thursday  | `(Thu)` |
-| Friday    | `(Fri)` |
+**Saturday**:
+
+```md
+`(Sat)`
+```
+
+**Sunday**:
+
+```md
+`(Sun)`
+```
+
+**Monday**:
+
+```md
+`(Mon)`
+```
+
+**Tuesday**:
+
+```md
+`(Tue)`
+```
+
+**Wednesday**:
+
+```md
+`(Wed)`
+```
+
+**Thursday**:
+
+```md
+`(Thu)`
+```
+
+**Friday**:
+
+```md
+`(Fri)`
+```
 
 ## Sheet
 
