@@ -9,50 +9,6 @@
 | `X`  | No class (any reason) |
 | `N`  | Not joined yet        |
 
-## Copy-Paste
-
-**Saturday**:
-
-```md
-`(Sat)`
-```
-
-**Sunday**:
-
-```md
-`(Sun)`
-```
-
-**Monday**:
-
-```md
-`(Mon)`
-```
-
-**Tuesday**:
-
-```md
-`(Tue)`
-```
-
-**Wednesday**:
-
-```md
-`(Wed)`
-```
-
-**Thursday**:
-
-```md
-`(Thu)`
-```
-
-**Friday**:
-
-```md
-`(Fri)`
-```
-
 ## Sheet
 
 | Name      | Class | 1<br>`(Sat)` | 2<br>`(Sun)` | 3<br>`(Mon)` | 4<br>`(Tue)` | 5<br>`(Wed)` | 6<br>`(Thu)` | 7<br>`(Fri)` |
