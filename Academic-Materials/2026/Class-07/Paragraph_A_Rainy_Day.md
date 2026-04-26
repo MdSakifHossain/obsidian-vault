@@ -18,4 +18,25 @@ A rainy day is a day when it rains all day long. On a rainy day, the sky looks g
 
 ### Word meaning
 
-rainy – বৃষ্টিপূর্ণ, বাদলা, বর্ষণমুখর; gloomy - অন্ধকার, বিষণ্ণ; cover - আবৃত, ঢাকা; cloud - মেঘ; heavily – অঝোরে; field – মাঠ; tank – জলাধার; destruction – ধ্বংস; valuable – মূল্যবান, দামি; property – সম্পত্তি; crop — শস্য; uproot – উপড়ানো; damage – ক্ষতি, লোকসান, হানি; cattle – গবাদি পশু: poor – গরিব; rich – ধনী; starve – অনাহারে থাকা; welcoming – সাদরে গৃহীত।
+rainy – বৃষ্টিপূর্ণ, বাদলা, বর্ষণমুখর; 
+gloomy - অন্ধকার, বিষণ্ণ; 
+cover - আবৃত, ঢাকা; 
+cloud - মেঘ; 
+heavily – অঝোরে; 
+field – মাঠ; 
+tank – জলাধার; 
+destruction – ধ্বংস; 
+valuable – মূল্যবান, দামি; 
+property – সম্পত্তি; 
+crop — শস্য; 
+uproot – উপড়ানো; 
+damage – ক্ষতি, লোকসান, হানি; 
+cattle – গবাদি পশু; 
+poor – গরিব; 
+rich – ধনী; 
+starve – অনাহারে থাকা; 
+welcoming – সাদরে গৃহীত।
+
+| Word  | Meaning                       |
+| ----- | ----------------------------- |
+| rainy | বৃষ্টিপূর্ণ, বাদলা, বর্ষণমুখর |
