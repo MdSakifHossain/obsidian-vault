@@ -27,8 +27,8 @@
 
 ## Additional Notes
 
-| Day of the Month | Note                                                                                                                                                 |
-| :--------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------- |
-|        5         | Holiday (Eid)                                                                                                                                        |
-|        6         | Personal leave                                                                                                                                       |
-|     12 - 23      | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sollicitudin enim non consectetur sollicitudin. Nulla eros libero, dictum vel mattis. |
+| Day of the Month | Note              |
+| :--------------: | :---------------- |
+|        5         | Note will be here |
+|        6         | Note will be here |
+|     12 - 15      | Note will be here |
