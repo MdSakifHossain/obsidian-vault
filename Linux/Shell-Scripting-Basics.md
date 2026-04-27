@@ -1,5 +1,13 @@
 # Shell Scripting Basics
 
-| js                            | bash                 |
-| ----------------------------- | -------------------- |
-| `console.log("Hello World!")` | `echo "Hello world"` |
+## Output text
+
+**This is bold text**:
+
+```js
+console.log("Hello World");
+```
+
+```bash
+echo "Hello World";
+```
