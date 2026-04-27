@@ -1,7 +1,7 @@
 # Linux
 
 - [npm not found by Zsh](./npm-not-found-by-zsh.md)
-- [tree command](./tree-command.md)
+- [tree command](tree-command.md)
 
 ## Ubuntu
 
