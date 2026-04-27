@@ -23,4 +23,6 @@ echo "Hello World";
 console.log("Hello World");
 ```
 
-## Variable Naming 
+## Variable Naming
+
+Variable Names can be lowercase
