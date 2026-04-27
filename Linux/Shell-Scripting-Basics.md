@@ -25,22 +25,7 @@ console.log("Hello World");
 
 ## Variable Naming Convention Rules
 
-Variable names can only contain:
-
-- **Letters** (a-z, A-Z)
-- **Numbers** (0-9)
-- **Underscore** (\_)
-
-> Spaces and special characters like `@`, `#`, `$`, `!`, `-` are **not allowed** (except underscore).
-
-The first character must be:
-
-- A **letter** (a-z, A-Z), or
-- An **underscore** (\_)
-
-Variable names **cannot start with a number**.
-
-Example: `1var=10` is invalid; use `var1=10` instead.
+asdfasdf
 
 ## Variable Assignment
 
