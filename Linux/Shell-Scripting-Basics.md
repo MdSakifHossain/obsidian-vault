@@ -23,10 +23,15 @@ echo "Hello World";
 console.log("Hello World");
 ```
 
-## Variable Naming
+## Variable Naming Convention Rules
 
-Variable Names should remail lowercase (e.g., `file_count`, `backup_dir`).
+- Valid Characters: Variable names can only contain:
+- **Letters** (a-z, A-Z)
+- **Numbers** (0-9)
+- **Underscore** (_)
+    
 
+Spaces and special characters like `@`, `#`, `$`, `!`, `-` are **not allowed** (except underscore).
 ## Variable Assignment
 
 Use `key=value` (e.g., `myvar=5`). 
