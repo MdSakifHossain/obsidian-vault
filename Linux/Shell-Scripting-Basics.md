@@ -25,4 +25,6 @@ console.log("Hello World");
 
 ## Variable Naming
 
-Variable Names can be lowercase
+Variable Names should remail lowercase (e.g., `file_count`, `backup_dir`).
+
+Use `name=value` (e.g., `myvar=5`). There is No need for `var` or `let` for basic string or integer assignment.
