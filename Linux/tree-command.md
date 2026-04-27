@@ -8,12 +8,18 @@ Display the directory structure from your current location.
 tree
 ```
 
-## Basic Tree to File
+## Tree to File Output
 
 Display the directory structure from your current location and save it to a text file in the same directory.
 
 ```bash
 tree > tree-output.txt
+```
+
+## Tree Favourite Command
+
+```bash
+tree --gitignore --dirsfisrt
 ```
 
 ## Tree from Parent Directory
