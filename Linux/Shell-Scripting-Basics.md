@@ -29,6 +29,12 @@ Variable Names should remail lowercase (e.g., `file_count`, `backup_dir`).
 
 ## Variable Assignment
 
-Use `key=value` (e.g., `myvar=5`).
+Use `key=value` (e.g., `myvar=5`). 
 
-There is No need for `var` or `let` for basic string or integer assignment. 
+Therefore, you should use `name=value` for general variables and `readonly` for constants in Bash
+
+| Keyword (JS)  | Bash Equivalent       | Purpose                       |
+| ------------- | --------------------- | ----------------------------- |
+| `var` / `let` | `name=value`          | Declare and assign a variable |
+| `const`       | `readonly name=value` | Declare a read-only constant  |
+|               |                       |                               |
