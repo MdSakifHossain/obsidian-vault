@@ -27,4 +27,8 @@ console.log("Hello World");
 
 Variable Names should remail lowercase (e.g., `file_count`, `backup_dir`).
 
-Use `name=value` (e.g., `myvar=5`). There is No need for `var` or `let` for basic string or integer assignment.
+## Variable Assignment
+
+Use `key=value` (e.g., `myvar=5`).
+
+There is No need for `var` or `let` for basic string or integer assignment. 
