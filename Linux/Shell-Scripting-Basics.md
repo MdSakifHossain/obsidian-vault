@@ -25,16 +25,24 @@ console.log("Hello World");
 
 ## Variable Naming Convention Rules
 
-- Valid Characters: Variable names can only contain:
-- **Letters** (a-z, A-Z)
-- **Numbers** (0-9)
-- **Underscore** (_)
-    
+1. Valid Characters: Variable names can only contain:
+   - **Letters** (a-z, A-Z)
+   - **Numbers** (0-9)
+   - **Underscore** (\_)
 
 Spaces and special characters like `@`, `#`, `$`, `!`, `-` are **not allowed** (except underscore).
+
+2. The first character must be:
+   - A **letter** (a-z, A-Z), or
+   - An **underscore** (\_)
+
+Variable names **cannot start with a number**. 
+
+Example: `1var=10` is invalid; use `var1=10` instead.
+
 ## Variable Assignment
 
-Use `key=value` (e.g., `myvar=5`). 
+Use `key=value` (e.g., `myvar=5`).
 
 Therefore, you should use `name=value` for general variables and `readonly` for constants in Bash
 
@@ -42,4 +50,3 @@ Therefore, you should use `name=value` for general variables and `readonly` 
 | ------------- | --------------------- | ----------------------------- |
 | `var` / `let` | `name=value`          | Declare and assign a variable |
 | `const`       | `readonly name=value` | Declare a read-only constant  |
-|               |                       |                               |
