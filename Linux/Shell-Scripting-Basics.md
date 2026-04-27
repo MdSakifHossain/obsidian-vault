@@ -2,11 +2,13 @@
 
 ## Output text
 
-**This is bold text**:
+**JS**:
 
 ```js
 console.log("Hello World");
 ```
+
+**bash**:
 
 ```bash
 echo "Hello World";
