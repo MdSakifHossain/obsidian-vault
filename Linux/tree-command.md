@@ -22,6 +22,12 @@ tree > tree-output.txt
 tree --gitignore --dirsfisrt
 ```
 
+## Fav command to File Output
+
+```bash
+tree --gitignore --dirsfirst > tree-output.txt
+```
+
 ## Tree from Parent Directory
 
 Go to the parent directory, list the specified folder, and save the output. This avoids creating a new file in the `vault` folder, which could trigger your daemon.
