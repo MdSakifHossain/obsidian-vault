@@ -3,7 +3,7 @@
 ## File Name
 
 - Use **Descriptive Names** such as `deploy_app.sh` or `cleanup_logs.sh`.
-- 
+- Recommended: use underscores for word sep
 
 ## Baby Step
 
