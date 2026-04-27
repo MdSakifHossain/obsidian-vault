@@ -2,7 +2,8 @@
 
 ## File Name
 
-File names could be 
+- Use **Descriptive Names** such as `deploy_app.sh` or `cleanup_logs.sh`.
+- 
 
 ## Baby Step
 
