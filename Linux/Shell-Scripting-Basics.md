@@ -1,6 +1,10 @@
 # Shell Scripting Basics
 
-## Output text
+## File Name
+
+File names could be 
+
+## Baby Step
 
 **JS**:
 
@@ -8,7 +12,7 @@
 console.log("Hello World");
 ```
 
-**bash**:
+**Bash**:
 
 ```bash
 echo "Hello World";
