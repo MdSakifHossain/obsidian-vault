@@ -1,5 +1,4 @@
 # Core idea
-
 ## Code
 
 ```sh
