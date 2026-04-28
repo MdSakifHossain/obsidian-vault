@@ -6,6 +6,8 @@ prompt for core file name? Default: `Core`
 prompt for file name? Default: `test`
 prompt for how many files? Defualt: 10
 
+## Phase 1
+
 deletes everything in the prompted directory
 create the core file
 add `# <core-file-name>` inside the core file
@@ -22,6 +24,8 @@ loops for the number which i gave after the the file name and add links such as:
 ``` 
 on new line of the core file.
 loop ends for the Core file.
+
+## Phase 2
 
 now it will loop again for the number of times it asked in the prompt to create directories which will look like:
 ```sh
