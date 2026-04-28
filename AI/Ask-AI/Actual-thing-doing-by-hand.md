@@ -110,12 +110,3 @@ create the `notes` sub-directory inside the `directoryes`:
 
 21 directories, 11 files
 ```
-
-
-```sh
-for i in {1..10}; do 
-	for j in {1..10}; do
-		touch "day-$j/notes/note-{1..10}.md"
-	done 
-done
-```
