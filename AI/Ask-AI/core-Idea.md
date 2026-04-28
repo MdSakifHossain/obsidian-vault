@@ -17,19 +17,3 @@ add empty line inside the core file
 add `## Links` inside the core file
 add empty line inside the core file
 
-loops will start form 1 not 0
-loops for the number which i gave after the the file name and add links such as:
-```md
-- [<prompted-file-name>-<currently-looping-number>](./<prompted-file-name>-<currently-looping-number>/<prompted-file-name>-<currently-looping-number>.md)
-``` 
-on new line of the core file.
-loop ends for the Core file.
-
-## Phase 2
-
-now it will loop again for the number of times it asked in the prompt to create directories which will look like:
-```sh
-mkdir <prompted-file-name>-<currently-looping-number>
-```
-
-it will create a file ind
