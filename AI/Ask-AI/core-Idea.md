@@ -8,4 +8,8 @@
 6. create the core file
 7. add `# <core-file-name>` inside the core file
 8. add an empty line inside the core file
-9. add `##`
+9. add `---` inside the core file
+10. add empty line inside the core file
+11. add `## Links` inside the core file
+12. add empty line inside the core file
+13. loops for the number which i gave after the the file name and add links such as `- [<core-file-name>-<core=]()`
