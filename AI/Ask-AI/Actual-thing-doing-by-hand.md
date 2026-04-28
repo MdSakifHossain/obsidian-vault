@@ -1,6 +1,19 @@
 # Steps
 
 go to the directory:
-```bash
+
+```sh
 cd Documents
+```
+
+Create core Document:
+
+```sh
+touch Core.md
+```
+
+Create Directories:
+
+```sh
+
 ```
