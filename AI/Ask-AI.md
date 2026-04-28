@@ -23,11 +23,19 @@ then another empty line on the core file.
 
 then it will loop for $files_to_created times and then it will echo the links using the unordered list format.
 
-**
+**Example**:
+
+```md
+# core-file-name
+
+## Links
+
+- [$test_file_name]
+```
 
 
 
 
 ```sh
-folder_name=$test_file_name-$files_to_created # example: test-1, test-2
+folder_name=$test_file_name-$looping_number # example: test-1, test-2
 ```
