@@ -12,4 +12,6 @@
 10. add empty line inside the core file
 11. add `## Links` inside the core file
 12. add empty line inside the core file
-13. loops for the number which i gave after the the file name and add links such as `- [<core-file-name>-<core=]()`
+13. loops for the number which i gave after the the file name and add links such as `- [<prompted-file-name>-<currently-looping-number](./<prompted-file-name>-<currently-looping-number>/<prompted-file-name>-<currently-looping-number>.md)` on new line
+14. loop ends for the Core file
+15. now it will loop again for the number of times it asked 
