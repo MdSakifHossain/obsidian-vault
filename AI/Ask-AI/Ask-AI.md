@@ -30,7 +30,11 @@ then it will loop for $files_to_created times and then it will echo the links us
 
 ## Links
 
-- [$test_file_name]
+- [$test_file_name](./$test_file_name/$test_file_name.md)
+- [$test_file_name](./$test_file_name/$test_file_name.md)
+- [$test_file_name](./$test_file_name/$test_file_name.md)
+...
+- [$test_file_name](./$test_file_name/$test_file_name.md)
 ```
 
 
