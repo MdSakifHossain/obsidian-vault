@@ -1,3 +1,39 @@
+# Core idea
+
+## Code
+
+```sh
+#!/bin/bash
+
+# Script name
+echo "Script: $(basename "$0")"
+
+# Prompt for number of days with default
+read -p "How many days? [default: 3]: " num_days_input
+num_days=${num_days_input:-3}
+
+# Prompt for number of notes with default
+read -p "How many notes per day? [default: 10]: " num_notes_input
+num_notes=${num_notes_input:-10}
+
+# Create the main file
+touch Core.md
+
+# Loop to create days and notes
+for day in $(seq 1 $num_days); do
+    mkdir -p "day-$day/notes"
+    touch "day-$day/day-$day.md"
+
+    for note in $(seq 1 $num_notes); do
+        filename="day-$day/notes/note-$note.md"
+        echo "# day $day note $note" > "$filename"
+        echo "Created: $filename"
+    done
+done
+```
+
+## Output
+
 ```
 ❯ tree --gitignore --dirsfirst
 .
