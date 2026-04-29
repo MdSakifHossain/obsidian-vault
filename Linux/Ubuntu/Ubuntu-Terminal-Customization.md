@@ -25,8 +25,8 @@ chsh -s $(which zsh)
   - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
   - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 
-> Just clone these 2 plugins into the `$ZSH_CUSTOM` folder and then just add it in the `.zshrc` file and exit and then reopen the termianl.\
-> \
+> Just clone these 2 plugins into the `$ZSH_CUSTOM` folder and then just add it in the `.zshrc` file and exit and then reopen the termianl.
+> 
 > Now you are Golden.
 
 - Install [powerlevel10k](https://github.com/romkatv/powerlevel10k)
