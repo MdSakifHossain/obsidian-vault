@@ -1,19 +1,19 @@
 # Creating Custom Commands
 
-`/usr/local/bin` && `~/.local/bin`. These are the two standard locations, and the **only** difference is **who** can run the script and **who** needs permission to install it.
+`/usr/local/bin` (System) && `~/.local/bin` (This User Only). These are the two standard locations, and the **only** difference is **who** can run the script and **who** needs permission to install it.
 
-| Feature                     | `~/.local/bin` (User)                            | `/usr/local/bin` (System)                          |
-| :-------------------------- | :----------------------------------------------- | :------------------------------------------------- |
-| **Who can run it?**         | **Only you** (your user account).                | **Everyone** on the computer.                      |
-| **Need `sudo` to install?** | **No.** You own the folder.                      | **Yes.** It's a protected system folder.           |
-| **Need `sudo` to run?**     | **No.**                                          | **No.** (Only needed to *install* or *edit*).      |
-| **Best for...**             | Personal scripts, tools you don't want to share. | Tools you want all users on the machine to access. |
+| Feature                     | `/usr/local/bin` (System)                          | `~/.local/bin` (This User Only)                  |
+| :-------------------------- | :------------------------------------------------- | :----------------------------------------------- |
+| **Who can run it?**         | **Everyone** on the computer.                      | **Only you** (your user account).                |
+| **Need `sudo` to install?** | **Yes.** It's a protected system folder.           | **No.** You own the folder.                      |
+| **Need `sudo` to run?**     | **No.** (Only needed to *install* or *edit*).      | **No.**                                          |
+| **Best for...**             | Tools you want all users on the machine to access. | Personal scripts, tools you don't want to share. |
 
 **Summary:**
 - If it's just for **you**, use `~/.local/bin` (easiest, no `sudo` ever).
 - If you want **everyone** to use it, use `/usr/local/bin` (requires `sudo` once to install).
 
-## Type 1 (~/.local/bin)
+## Type 1 (This User)
 ### Prerequisite
 
 **Verify if its in your PATH:**
@@ -74,7 +74,7 @@ fi
 
 Done.
 
-## Type 2 (/usr/local/bin)
+## Type 2 (Everyone)
 
 ### Install
 
