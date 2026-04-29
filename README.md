@@ -5,26 +5,27 @@ The Graph is SO COOL
 ## Themes
 
 1. Brutalism
-2. Catppuccin
-3. Dracula + LYT
-4. Dracula Official
-5. GitHub Theme
-6. Hackthebox
-7. LYT Mode
-8. Minimal-Dark-Coder
-9. Novadust
-10. OISTNB
-11. Omega
-12. Pine Forest Berry
-13. Retro Windows
-14. RetroOS 98
-15. Sea Glass
-16. Seamless View
-17. Soloing
-18. Synthwave '84
-19. Tyrone Neon (change accent color)
-20. W95
-21. Wasp
-22. Wikipedia
-23. Wombat
-24. evangelion
+2. Brutalist
+3. Catppuccin
+4. Dracula + LYT
+5. Dracula Official
+6. GitHub Theme
+7. Hackthebox
+8. LYT Mode
+9. Minimal-Dark-Coder
+10. Novadust
+11. OISTNB
+12. Omega
+13. Pine Forest Berry
+14. Retro Windows
+15. RetroOS 98
+16. Sea Glass
+17. Seamless View
+18. Soloing
+19. Synthwave '84
+20. Tyrone Neon (change accent color)
+21. W95
+22. Wasp
+23. Wikipedia
+24. Wombat
+25. evangelion
