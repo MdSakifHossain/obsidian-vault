@@ -1,4 +1,4 @@
-# Terminal Customization
+# Ubuntu Terminal Customization
 
 ⬅️ [Ubuntu](./Ubuntu.md)
 
@@ -16,8 +16,8 @@ echo $SHELL # /bin/bash (Expected Output)
 chsh -s $(which zsh)
 ```
 
-> Exit out the terminal and Log Out and then Log In and Open the terminal.\
-> \
+> Exit out the terminal and Log Out and then Log In and Open the terminal.
+> 
 > Do the zsh setup after opening the terminal
 
 - Install [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh) on top of zsh
