@@ -16,7 +16,7 @@
 ## Type 1 (~/.local/bin)
 ### Prerequisite
 
-#### Verify if its in your PATH:
+**Verify if its in your PATH:**
 
 ```bash
 if [[ ":$PATH:" == *":$HOME/.local/bin:"* ]]; then
@@ -26,16 +26,16 @@ else
 fi
 ```
 
-#### If it's NOT in your PATH (Ubuntu usually has it):
+**If it's NOT in your PATH (Ubuntu usually has it):**
 
-**Bash:**
+Bash:
 
 ```sh
 echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
 ```
 
-**Zsh:**
+Zsh:
 
 ```sh
 echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc
@@ -87,8 +87,10 @@ rm -f ~/.local/bin/mycommand
 echo "Removed ~/.local/bin/mycommand"
 ```
 
-## Type 2 (/usr/local/bin)
 
+---
+
+## Type 2 (/usr/local/bin)
 
 ### Install
 
