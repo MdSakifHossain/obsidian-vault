@@ -78,6 +78,15 @@ Done.
 
 ### Install
 
+**Keep in Mind:**
+
+1. Check if destination exists before copying
+2. Check if already installed
+3. Ask for `sudo` only when needed
+4. Uninstall should be safe (don't delete random stuff)
+
+**Install Example:**
+
 - make your script
 - make it executable: `chmod +x <your-script>`
 - copy/move your script to `/usr/local/bin`. (`sudo` needed)
