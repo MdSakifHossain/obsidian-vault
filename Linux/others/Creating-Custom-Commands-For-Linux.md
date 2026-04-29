@@ -13,7 +13,7 @@
 - If it's just for **you**, use `~/.local/bin` (No `sudo` required).
 - If you want **everyone** to use it, use `/usr/local/bin` (Requires `sudo` once to `install/update/uninstall`).
 
-## Type 1 (This User)
+## Type 1 (This User Only)
 ### Prerequisite
 
 **Verify if its in your PATH:**
