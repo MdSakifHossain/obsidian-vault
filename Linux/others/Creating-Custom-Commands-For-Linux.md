@@ -2,12 +2,12 @@
 
 `/usr/local/bin` (Everyone) && `~/.local/bin` (This User Only). These are the two standard locations.
 
-| Feature                     | `/usr/local/bin` (Everyone)                        | `~/.local/bin` (This User Only)                  |
-| :-------------------------- | :------------------------------------------------- | :----------------------------------------------- |
-| **Who can run it?**         | **Everyone** on the computer.                      | **Only you** (your user account).                |
-| **Need `sudo` to install?** | **Yes.** It's a protected system folder.           | **No.** You own the folder.                      |
-| **Need `sudo` to run?**     | **No.** (Only needed to *install* or *edit*).      | **No.**                                          |
-| **Best for...**             | Tools you want all users on the machine to access. | Personal scripts, tools you don't want to share. |
+| Feature                 | `~/.local/bin` (This User Only)                  | `/usr/local/bin` (Everyone)                        |
+| :---------------------- | :----------------------------------------------- | :------------------------------------------------- |
+| Who can run it?         | **Only you** (your user account).                | **Everyone** on the computer.                      |
+| Need `sudo` to install? | **No.** You own the folder.                      | **Yes.** It's a protected system folder.           |
+| Need `sudo` to run?     | **No.**                                          | **No.** (Only needed to *install* or *edit*).      |
+| Best for...             | Personal scripts, tools you don't want to share. | Tools you want all users on the machine to access. |
 
 **Summary:**
 - If it's just for **you**, use `~/.local/bin` (No `sudo` required).
