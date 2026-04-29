@@ -11,4 +11,5 @@
 - Gemini
 - Kimi
 - Z AI
-- 
+- Scira AI
+- Qwen AI
