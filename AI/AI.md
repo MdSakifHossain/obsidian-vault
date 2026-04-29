@@ -8,4 +8,7 @@
 - ChatGPT
 - Grok
 - DeepSeek
+- Gemini
+- Kimi
+- Z AI
 - 
