@@ -150,7 +150,7 @@ export default AuthProvider;
 
 ---
 
-- [ ] something else
+- [ ] we will observe the user state
 - [ ] something else
 - [ ] something else
 
