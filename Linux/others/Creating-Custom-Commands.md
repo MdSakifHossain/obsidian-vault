@@ -91,8 +91,16 @@ echo "Removed ~/.local/bin/mycommand"
 
 ## Type 2 Installation (/usr/local/bin)
 
+
 its kinda simple AF
 
 - make your script
-- copy your script to `/usr/local/bin`
-- make it executable
+- make it executable: `chmod +x <your-script>`
+- copy/move your script to `/usr/local/bin` (`sudo` needed)
+
+Done.
+
+update the command:
+
+- edit <your-script>`
+
