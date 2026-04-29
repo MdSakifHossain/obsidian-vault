@@ -13,7 +13,7 @@
 - If it's just for **you**, use `~/.local/bin` (easiest, no `sudo` ever).
 - If you want **everyone** to use it, use `/usr/local/bin` (requires `sudo` once to install).
 
-## Type 1 Installation
+## Type 1 Installation (~/.local/bin)
 ### Prerequisite
 
 #### Verify if its in your PATH:
@@ -89,5 +89,6 @@ rm -f ~/.local/bin/mycommand
 echo "Removed ~/.local/bin/mycommand"
 ```
 
-## Type 2 Installation
+## Type 2 Installation (/usr/local/bin)
 
+its kinda simple AF
