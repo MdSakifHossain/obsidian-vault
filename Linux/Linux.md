@@ -11,3 +11,7 @@
 ## Arch Linux
 
 - [Arch Linux](./Arch-Linux/Arch-Linux.md)
+
+## Others
+
+- [Others](./others/others.md)
