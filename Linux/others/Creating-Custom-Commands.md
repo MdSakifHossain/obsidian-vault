@@ -15,7 +15,8 @@
 
 ## Two types of Command Installation
 
-- []()
+- [Type 1 Installation](#Type 1 Installation)
+- [Type 2 Installation](#Type 2 Installation)
 ## Type 1 Installation
 ### Prerequisite
 
@@ -31,12 +32,17 @@ fi
 
 #### If it's NOT in your PATH (Ubuntu usually has it):
 
-Then you never think about it again.
+**Bash:**
 
 ```bash
 echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
-echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc
 source ~/.bashrc
+```
+
+**Zsh:**
+
+```sh
+echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc
 source ~/.zshrc
 ```
 
@@ -86,3 +92,4 @@ echo "Removed ~/.local/bin/mycommand"
 ```
 
 ## Type 2 Installation
+
