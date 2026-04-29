@@ -48,12 +48,8 @@ fi
 
 **Minimal Install Example:**
 
-```sh
-# Copy script
-cp mycommand ~/.local/bin/
-
-# Add Permission
-chmod +x ~/.local/bin/mycommand
+- Copy script `cp mycommand ~/.local/bin/`
+- Add Permission `chmod +x ~/.local/bin/mycommand`
 
 # Confirm Installation
 echo "Installed to ~/.local/bin/mycommand"
