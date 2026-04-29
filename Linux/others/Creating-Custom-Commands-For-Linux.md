@@ -1,4 +1,4 @@
-# Creating Custom Commands
+# Creating Custom Commands For Linux
 
 `/usr/local/bin` (Everyone) && `~/.local/bin` (This User Only). These are the two standard locations.
 
@@ -11,7 +11,7 @@
 
 **Summary:**
 - If it's just for **you**, use `~/.local/bin` (No `sudo` required).
-- If you want **everyone** to use it, use `/usr/local/bin` (Requires `sudo` once to `install/edit`).
+- If you want **everyone** to use it, use `/usr/local/bin` (Requires `sudo` once to `install/update/uninstall`).
 
 ## Type 1 (This User)
 ### Prerequisite
