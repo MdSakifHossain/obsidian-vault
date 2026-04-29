@@ -13,7 +13,8 @@
 - If it's just for **you**, use `~/.local/bin` (easiest, no `sudo` ever).
 - If you want **everyone** to use it, use `/usr/local/bin` (requires `sudo` once to install).
 
-## Methods
+## Command Installation
+
 
 ### Prerequisite
 
