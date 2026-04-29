@@ -20,7 +20,7 @@
 ## Type 1 Installation
 ### Prerequisite
 
-#### Check if it's in your PATH:
+#### Verify if its in your PATH:
 
 ```bash
 if [[ ":$PATH:" == *":$HOME/.local/bin:"* ]]; then
@@ -34,7 +34,7 @@ fi
 
 **Bash:**
 
-```bash
+```sh
 echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
 ```
@@ -46,13 +46,15 @@ echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc
 source ~/.zshrc
 ```
 
-Now verify:
+#### Verify Again:
 
-```bash
-echo $PATH | grep -q "$HOME/.local/bin" && echo "Yes, it's there" || echo "No, not in PATH"
+```sh
+if [[ ":$PATH:" == *":$HOME/.local/bin:"* ]]; then
+  echo "Yes, it's there"
+else
+  echo "No, not in PATH"
+fi
 ```
-
-Done. Now put scripts in `~/.local/bin/` and they just work.
 
 ---
 
