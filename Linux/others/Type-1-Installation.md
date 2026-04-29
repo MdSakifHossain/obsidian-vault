@@ -13,14 +13,14 @@ fi
 
 **If it's NOT in your PATH (Ubuntu usually has it):**
 
-Bash:
+**Bash:**
 
 ```sh
 echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
 ```
 
-Zsh:
+**Zsh:**
 
 ```sh
 echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc
