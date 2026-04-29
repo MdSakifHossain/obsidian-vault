@@ -13,9 +13,11 @@
 - If it's just for **you**, use `~/.local/bin` (easiest, no `sudo` ever).
 - If you want **everyone** to use it, use `/usr/local/bin` (requires `sudo` once to install).
 
-## Command Installation
+## Two types of Command Installation
 
+- [Shellfish Guy Method](#Shellfish Guy Method)
 
+## Shellfish Guy Method
 ### Prerequisite
 
 #### Check if it's in your PATH:
