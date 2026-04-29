@@ -92,3 +92,7 @@ echo "Removed ~/.local/bin/mycommand"
 ## Type 2 Installation (/usr/local/bin)
 
 its kinda simple AF
+
+- make your script
+- copy your script to `/usr/local/bin`
+- make it executable
