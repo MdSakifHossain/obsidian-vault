@@ -1,6 +1,6 @@
-# Learning Shell Scripting
+# Creating Custom Commands
 
-Yes, that is exactly right. Those are the two standard locations, and the **only** difference is **who** can run the script and **who** needs permission to install it.
+`/usr/local/bin` && `~/.local/bin`. These are the two standard locations, and the **only** difference is **who** can run the script and **who** needs permission to install it.
 
 | Feature | `~/.local/bin` (User) | `/usr/local/bin` (System) |
 | :--- | :--- | :--- |
