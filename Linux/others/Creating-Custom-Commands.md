@@ -15,9 +15,6 @@
 
 ## Methods
 
-
-
-- 
 ### Prerequisite
 
 #### Check if it's in your PATH:
