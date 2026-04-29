@@ -13,7 +13,7 @@
 - If it's just for **you**, use `~/.local/bin` (easiest, no `sudo` ever).
 - If you want **everyone** to use it, use `/usr/local/bin` (requires `sudo` once to install).
 
-## Type 1 Installation (~/.local/bin)
+## Type 1 (~/.local/bin)
 ### Prerequisite
 
 #### Verify if its in your PATH:
@@ -89,18 +89,21 @@ rm -f ~/.local/bin/mycommand
 echo "Removed ~/.local/bin/mycommand"
 ```
 
-## Type 2 Installation (/usr/local/bin)
+## Type 2 (/usr/local/bin)
 
 
 its kinda simple AF
 
 - make your script
 - make it executable: `chmod +x <your-script>`
-- copy/move your script to `/usr/local/bin` (`sudo` needed)
+- copy/move your script to `/usr/local/bin`. (`sudo` needed)
 
 Done.
 
 update the command:
 
-- edit <your-script>`
+- edit `<your-script>` 
+- copy/move to `/usr/local/bin`. (`sudo` needed)
+
+Done.
 
