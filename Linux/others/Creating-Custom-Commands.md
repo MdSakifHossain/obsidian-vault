@@ -52,15 +52,13 @@ else
 fi
 ```
 
----
-
 ### Installation
 
-#### Keep in mind
+**Keep in Mind:**
 
 1. **Check if destination exists** before copying
 2. **Check if already installed** (optional but nice)
-3. **Ask for sudo only when needed**
+3. **Ask for `sudo` only when needed**
 4. **Uninstall should be safe** (don't delete random stuff)
 
 #### Minimal Install Example
@@ -92,7 +90,7 @@ echo "Removed ~/.local/bin/mycommand"
 ## Type 2 (/usr/local/bin)
 
 
-its kinda simple AF
+### Install
 
 - make your script
 - make it executable: `chmod +x <your-script>`
@@ -100,13 +98,15 @@ its kinda simple AF
 
 Done.
 
-update the command:
+### Update
 
 - edit `<your-script>` 
 - copy/move to `/usr/local/bin`. (`sudo` needed)
 
 Done.
 
-Uninstall:
+### Uninstall
 
-- remove `<your-script>` from `/usr/local/bin` 
+- remove `<your-script>` from `/usr/local/bin`. (`sudo` needed)
+
+Done.
