@@ -203,8 +203,7 @@ const AuthProvider = ({ children }) => {
 export default AuthProvider;
 ```
 
-- [ ] something else
-- [ ] something else
+If confused then look at [Assignment 9](http://github.com/MdSakifHossain/PH-Lv01-B12A09-ToyTopia-04-11-2025/blob/main/src/contexts/AuthContext/AuthProvider.jsx)
 
 > END
 
