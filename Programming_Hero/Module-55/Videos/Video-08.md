@@ -75,13 +75,40 @@ export default AuthProvider;
 
 ---
 
-- [ ] create `loading && user` state
+- [ ] create `loading && user` state, send it to `authInfo` && hook it into the `createUser` function.
 
 ```jsx
+// src/contexts/AuthProvider.jsx
+import React, { useState } from "react";
+import { AuthContext } from "./AuthContext";
+import { createUserWithEmailAndPassword } from "firebase/auth";
+import { auth } from "./firebase.init";
 
+const AuthProvider = ({ children }) => {
+  // 1. create these states
+  const [user, setUser] = useState(null); // 2. by default user will be null;
+  const [loading, setLoading] = useState(true); // 3. by default loading state will be true;
+
+  const createUser = (email, password) => {
+    setLoading(true); // 6. set loading to true; later when we make state observer then we wil make it false;
+    return createUserWithEmailAndPassword(auth, email, password);
+  };
+
+  const authInfo = {
+    createUser,
+    user, // 4. send user state;
+    loading, // 5. send loading state;
+  };
+
+  return <AuthContext value={authInfo}>{children}</AuthContext>;
+};
+
+export default AuthProvider;
 ```
 
 ---
+
+- [ ] 
 
 > END
 
