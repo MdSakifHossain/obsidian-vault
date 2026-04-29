@@ -11,7 +11,9 @@ else
 fi
 ```
 
-**If it's NOT in your PATH (Ubuntu usually has it):**
+If it's there then Skip to `Installation` Section.
+
+If it's NOT in your PATH (Ubuntu usually has it):
 
 **Bash:**
 
@@ -27,7 +29,7 @@ echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc
 source ~/.zshrc
 ```
 
-### Verify Again:
+**Verify Again:**
 
 ```sh
 if [[ ":$PATH:" == *":$HOME/.local/bin:"* ]]; then
@@ -48,12 +50,8 @@ fi
 
 **Minimal Install Example:**
 
-- Copy script `cp mycommand ~/.local/bin/`
-- Add Permission `chmod +x ~/.local/bin/mycommand`
-
-# Confirm Installation
-echo "Installed to ~/.local/bin/mycommand"
-```
+- Copy script. `cp mycommand ~/.local/bin/`
+- Add Permission. `chmod +x ~/.local/bin/mycommand`
 
 ### Uninstall
 
