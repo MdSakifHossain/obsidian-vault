@@ -13,6 +13,11 @@
 - If it's just for **you**, use `~/.local/bin` (easiest, no `sudo` ever).
 - If you want **everyone** to use it, use `/usr/local/bin` (requires `sudo` once to install).
 
+## Methods
+
+
+
+- 
 ### Prerequisite
 
 #### Check if it's in your PATH:
@@ -25,7 +30,7 @@ else
 fi
 ```
 
-### If it's NOT in your PATH (Ubuntu usually has it):
+#### If it's NOT in your PATH (Ubuntu usually has it):
 
 Then you never think about it again.
 
