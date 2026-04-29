@@ -2,23 +2,21 @@
 
 ⬅️ [OpenRGB](./OpenRGB.md)
 
-You can automate which can be done by Human interaction.
+You can automate what would normally require human interaction.
 
-## Design System
+---
 
-<img
-  src="https://i.giphy.com/3V33ssIjg0BUGafaU0.webp"
-  alt="useless-image"
-  width="50%"
-/>
+## How It Works
 
-> **Event**: user logs in
->
-> **Action**: wait 20 seconds
->
-> **Then**: run `openrgb --mode off`
+<img src="https://i.giphy.com/3V33ssIjg0BUGafaU0.webp" alt="useless-image" width="50%"/>
 
-```txt
+**Event:** User logs in
+
+**Action:** Wait 20 seconds
+
+**Then:** Run `openrgb --mode off`
+
+```
 system boots
 → login succeeds
 → user session starts
@@ -30,20 +28,27 @@ system boots
 → rule exits
 ```
 
-## Human Interaction
+---
 
-<img
-  src="https://i.giphy.com/3o6Ei2yv8fqpR3nJG8.webp"
-  alt="useless-image"
-  width="50%"
-/>
+## Before You Automate: Test It Manually
 
-`system boots ==> login ==> terminal ==> command ==> RGB off`
+<img src="https://i.giphy.com/3o6Ei2yv8fqpR3nJG8.webp" alt="useless-image" width="50%"/>
 
-Im using `openRGB` for this case.
+The manual flow:
+
+```
+system boots → login → terminal → command → RGB off
+```
+
+I'm using **OpenRGB** for this.
+
+### Check Your OpenRGB Version
 
 ```shell
 openrgb --version
+```
+
+```
 OpenRGB 0.9+ (1.0rc2), for controlling RGB lighting.
   Version:		 0.9+ (1.0rc2)
   Build Date		 Mon, 13 Apr 2020 03:57:34 +0000
@@ -52,11 +57,13 @@ OpenRGB 0.9+ (1.0rc2), for controlling RGB lighting.
   Git Branch		 2039027121 2039027252 master
 ```
 
-Now Lets See if it can shut the LED's off or not.
+### Test the Command
 
 ```shell
 $ sudo openrgb --mode off
+```
 
+```
 Connection attempt failed
 [i2c_smbus_linux] Failed to read i2c device PCI device ID
 [i2c_smbus_linux] Failed to read i2c device PCI device ID
@@ -65,90 +72,65 @@ Error: Mode 'off' not available for device 'MSI PRO B650M-B (MS-7E28)'
 Error: Mode 'off' not available for device 'MSI PRO B650M-B (MS-7E28)'
 ```
 
-This is not an error. Motherboard is a ghost device. but `RAM LED's` got shut down.
+**Chill.** This is not an error. The motherboard is a ghost device. But the **RAM LEDs** got shut down.
 
 ```shell
 openrgb --mode off
 ```
 
-This also works without `sudo`. So, we are `Golden`.
+This also works **without** `sudo`. So, we are **golden**.
 
-## Automation Implementation
+---
 
-<img
-  src="https://i.giphy.com/3oz8xtBx06mcZWoNJm.webp"
-  alt="useless-image"
-  width="50%"
-/>
+## The Automation
 
-This step is mechanical, not conceptual;
+<img src="https://i.giphy.com/3oz8xtBx06mcZWoNJm.webp" alt="useless-image" width="50%"/>
 
-- create a user-level systemd service
-- tell it to start on login
-- add the 20 second delay
-- put your already-working command inside
-- No new ideas. No new behavior.
+This step is mechanical, not conceptual:
 
-systemd only reacts to one thing: `Unit files`
+- Create a user-level systemd service
+- Tell it to start on login
+- Add the 20-second delay
+- Put your already-working command inside
 
-A `unit file` is just:
+No new ideas. No new behavior.
 
-- a text file
-- in a specific directory
-- with a specific name
-- following a known format
+---
 
-> If the file exists, systemd can read it.
->
-> If it’s enabled, systemd will act on it
-
-## Where Systemd units live (this matters)
+## Where Systemd Units Live
 
 There are **two worlds**:
 
-#### System-level (root)
+| Level | Path | Who Owns It | When It Runs |
+|---|---|---|---|
+| System (root) | `/etc/systemd/system/` | Root | At boot |
+| User (you) | `~/.config/systemd/user/` | You | On login |
 
-```shell
-/etc/systemd/system/
-```
+If you put a file in the user path:
 
-#### User-level (user)
+- It belongs only to you
+- It runs only when you log in
+- It needs no `sudo`
 
-```shell
-~/.config/systemd/user/
-```
+That's **exactly what I want**.
 
-If you put a file in the second path:
+---
 
-- it belongs only to you
-- it runs only when you log in
-- it needs no sudo
+## Step-by-Step Setup
 
-That’s `exactly what I want`.
-
-## Implementation Part
-
-We create a `unit file` that `systemd --user` will execute `when the user session starts`.
-
-###### Step 1: Create the place `systemd --user` actually reads
+### Step 1: Create the Directory
 
 ```shell
 mkdir -p ~/.config/systemd/user
 ```
 
-Logical meaning:
-
-- "These are rules for `my user session`, not the whole system."
-
-###### Step 2: Create the unit file (this is the rule)
-
-Name it something boring and honest:
+### Step 2: Create the Unit File
 
 ```shell
 nano ~/.config/systemd/user/openrgb-off.service
 ```
 
-Put `exactly this` inside:
+Paste this inside:
 
 ```service
 [Unit]
@@ -164,70 +146,49 @@ WantedBy=default.target
 
 Save. Exit.
 
-###### Explanation
+#### What's What
 
-```service
-`[Unit]`
+| Section | What It Does |
+|---|---|
+| `[Unit]` | Metadata. For humans. systemd doesn't give a fuck. Purely informational. |
+| `[Service]` | The actual behavior. |
+| `Type=oneshot` | Run once and exit. Don't stay alive and don't loop. Perfect for this. |
+| `ExecStart=...` | The command. Sleeps 20 seconds, then kills the lights. |
+| `[Install]` | Tells systemd when to trigger this. |
+| `WantedBy=default.target` | Translation: "This is the **login event**." |
 
-Metadata. For Humans. systemd doesnt give a fuck. Purely informational.
-
-`[Service]`
-
-This is the actual behavior.
-
-`Type=oneshot`
-
-Meaning: run once && exit. Dont stay alive and dont fuck in a loop
-
-> Perfect for my case.
-
-`ExecStart=/bin/bash -c 'sleep 20 && openrgb --mode off'`
-
-`[Install]`
-
-`WantedBy=default.target`
-
-Translation: "This is the **login event**"
-```
-
-###### Step 3: Register the service (one-time)
-
-Tell systemd --user that this rule exists.
+### Step 3: Register the Service (One-Time)
 
 ```shell
 systemctl --user daemon-reload
 systemctl --user enable openrgb-off.service
 ```
 
-What just happened:
+**What just happened:**
 
 - systemd reread unit files
-- created a symlink
-- attached your service to the login event
+- Created a symlink
+- Attached your service to the login event
 
-Nothing will ran `yet`
+**Nothing will run yet.**
 
-###### Rant && Explanation
-
-> Because appearantly, systemd is like stupid guy. He doenst automatically know if anything has changed or not. we have to tell him to reload (Check if theres any changes in his directory)
+> Because apparently, systemd is like a stupid guy. He doesn't automatically know if anything has changed. We have to tell him to reload (check if there's anything new in his directory).
 >
-> After reloading he will see and say, 'ah, theres a new file` and he is so fucking dumb that he wont just start the thing automatically.
+> After reloading, he'll see it and say, "Ah, there's a new file." But he's so fucking dumb that he won't just start the thing automatically.
 >
-> And then, We have to `enable` that new service file.
+> And then, we have to `enable` that new service file.
 >
-> But, that thing wont run `right away`. He be like, Im not gonna run until I reboot or not Freshly Powered on Again.
+> But that thing won't run right away. He'll be like, "I'm not gonna run until I reboot or get freshly powered on again."
 
-###### Step 4: (Optional) Test it without rebooting
-
-`If you want to see it fire right now:`
+### Step 4: Test It Now (Optional)
 
 ```shell
 systemctl --user start openrgb-off.service
 ```
 
-Wait 20 seconds. RAM goes dark. And, Life continues.
+Wait 20 seconds. RAM goes dark. Life continues.
 
-###### Step 5: Reboot once. Then forget this exists.
+### Step 5: Reboot Once. Then Forget This Exists.
 
 On next boot:
 
@@ -241,17 +202,15 @@ boot
 → exits quietly
 ```
 
-## Last but Not Least
+---
 
-To remove it (God forbid you do):
+## How to Remove It
+
+God forbid you do:
 
 ```shell
 systemctl --user disable openrgb-off.service
 rm ~/.config/systemd/user/openrgb-off.service
 ```
 
-<img
-  src="https://i.giphy.com/1dMNqVx9Kb12EBjFrc.webp"
-  alt="useless-image"
-  width="50%"
-/>
+<img src="https://i.giphy.com/1dMNqVx9Kb12EBjFrc.webp" alt="useless-image" width="50%"/>
