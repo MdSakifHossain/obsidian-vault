@@ -51,6 +51,8 @@ chmod +x ~/.local/bin/mycommand
 echo "Installed to ~/.local/bin/mycommand"
 ```
 
+## Uninstall
+
 ### Minimal Uninstall Example
 
 ```sh
