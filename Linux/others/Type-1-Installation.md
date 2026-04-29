@@ -13,7 +13,7 @@ fi
 
 If it's there then Skip to `Installation` Section.
 
-If it's NOT in your PATH (Ubuntu usually has it):
+If it's NOT then:
 
 **Bash:**
 
@@ -43,10 +43,10 @@ fi
 
 **Keep in Mind:**
 
-1. **Check if destination exists** before copying
-2. **Check if already installed** (optional but nice)
-3. **Ask for `sudo` only when needed**
-4. **Uninstall should be safe** (don't delete random stuff)
+1. Check if destination exists before copying
+2. Check if already installed (optional but nice)
+3. Ask for `sudo` only when needed
+4. Uninstall should be safe (don't delete random stuff)
 
 **Minimal Install Example:**
 
