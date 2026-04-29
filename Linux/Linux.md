@@ -1,9 +1,4 @@
 # Linux
-
-- [npm not found by Zsh](./others/npm-not-found-by-zsh.md)
-- [tree command](./others/tree-command.md)
-- [Creating Custom Commands](./others/Creating-Custom-Commands.md)
-
 ## Ubuntu
 
 - [Ubuntu](./Ubuntu/Ubuntu.md)
@@ -14,4 +9,4 @@
 
 ## Others
 
-- [Others](./others/others.md)
+- [Others](others.md)
