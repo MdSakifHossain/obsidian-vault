@@ -4,25 +4,14 @@ The Graph is SO COOL
 
 ## Themes
 
-- Arcane
-- Aurora
-- Border
-- Borealis
 - Brutalism
 - Catppuccin
-- Consolas
 - Dracula + LYT
 - Dracula Official
-- Dracula for Obsidian
-- Everforest
 - GitHub Theme
 - Hackthebox
-- Hulk
 - LYT Mode
-- Lemost Theme
-- Material Ocean
 - Minimal-Dark-Coder
-- Neon Synthwave
 - Novadust
 - OISTNB
 - Omega
