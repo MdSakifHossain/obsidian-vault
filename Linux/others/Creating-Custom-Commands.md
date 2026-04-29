@@ -5,7 +5,11 @@
 ### Check if it's in your PATH:
 
 ```bash
-echo $PATH | grep -q "$HOME/.local/bin" && echo "Yes, it's there" || echo "No, not in PATH"
+if [[ ":$PATH:" == *":$HOME/.local/bin:"* ]]; then
+  echo "Yes, it's there"
+else
+  echo "No, not in PATH"
+fi
 ```
 
 ### If it's NOT in your PATH (Ubuntu usually has it):
@@ -51,6 +55,7 @@ chmod +x ~/.local/bin/mycommand
 echo "Installed to ~/.local/bin/mycommand"
 ```
 
+---
 ## Uninstall
 
 ### Minimal Uninstall Example
