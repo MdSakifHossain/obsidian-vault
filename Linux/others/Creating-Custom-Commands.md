@@ -14,7 +14,9 @@ Then you never think about it again.
 
 ```bash
 echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
+echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc
 source ~/.bashrc
+source ~/.zshrc
 ```
 
 Now verify:
