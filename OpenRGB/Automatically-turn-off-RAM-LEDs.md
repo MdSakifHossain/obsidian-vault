@@ -71,7 +71,7 @@ This is not an error. Motherboard is a ghost device. but `RAM LED's` got shut do
 openrgb --mode off
 ```
 
-This also works without the `sudo`. So we are `Golden`.
+This also works without `sudo`. So, we are `Golden`.
 
 ## Automation Implementation
 
