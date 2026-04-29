@@ -151,6 +151,58 @@ export default AuthProvider;
 ---
 
 - [ ] we will observe the user state
+
+```jsx
+// src/contexts/AuthProvider.jsx
+import React, { useEffect, useState } from "react";
+import { AuthContext } from "./AuthContext";
+import {
+  createUserWithEmailAndPassword,
+  signInWithEmailAndPassword,
+  onAuthStateChanged, // 1. import the observer;
+} from "firebase/auth";
+import { auth } from "./firebase.init";
+
+const AuthProvider = ({ children }) => {
+  const [user, setUser] = useState(null);
+  const [loading, setLoading] = useState(true);
+
+  const createUser = (email, password) => {
+    setLoading(true);
+    return createUserWithEmailAndPassword(auth, email, password);
+  };
+
+  const SingInUser = (email, password) => {
+    setLoading(true);
+    return signInWithEmailAndPassword(auth, email, password);
+  };
+
+  // 2. create the side effect;
+  useEffect(() => {
+    const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
+      setUser(currentUser); // 4. set the currentUser;
+      setLoading(false); // 5. set loading to false;
+    });
+
+    // 3. cleanup function
+    return () => {
+      unsubscribe();
+    };
+  }, []);
+
+  const authInfo = {
+    createUser,
+    SingInUser,
+    user,
+    loading,
+  };
+
+  return <AuthContext value={authInfo}>{children}</AuthContext>;
+};
+
+export default AuthProvider;
+```
+
 - [ ] something else
 - [ ] something else
 
