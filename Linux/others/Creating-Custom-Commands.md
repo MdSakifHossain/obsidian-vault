@@ -15,9 +15,8 @@
 
 ## Two types of Command Installation
 
-- [Shellfish Guy Method](#Shellfish Guy Method)
-
-## Shellfish Guy Method
+- []()
+## Type 1 Installation
 ### Prerequisite
 
 #### Check if it's in your PATH:
@@ -85,3 +84,5 @@ rm -f ~/.local/bin/mycommand
 # Confirm Uninstallation
 echo "Removed ~/.local/bin/mycommand"
 ```
+
+## Type 2 Installation
