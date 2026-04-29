@@ -37,7 +37,7 @@ The Graph is SO COOL
 - Synthwave '84
 - Terminal2K
 - Tom's Theme
-- Tyrone Neon (change accent then it will be good )
+- Tyrone Neon (change accent color)
 - Ultra Lobster
 - W95
 - Wasp
