@@ -1,8 +1,8 @@
 # Creating Custom Commands
 
-`/usr/local/bin` (System) && `~/.local/bin` (This User Only). These are the two standard locations, and the **only** difference is **who** can run the script and **who** needs permission to install it.
+`/usr/local/bin` (Everyone) && `~/.local/bin` (This User Only). These are the two standard locations.
 
-| Feature                     | `/usr/local/bin` (System)                          | `~/.local/bin` (This User Only)                  |
+| Feature                     | `/usr/local/bin` (Everyone)                        | `~/.local/bin` (This User Only)                  |
 | :-------------------------- | :------------------------------------------------- | :----------------------------------------------- |
 | **Who can run it?**         | **Everyone** on the computer.                      | **Only you** (your user account).                |
 | **Need `sudo` to install?** | **Yes.** It's a protected system folder.           | **No.** You own the folder.                      |
@@ -10,8 +10,8 @@
 | **Best for...**             | Tools you want all users on the machine to access. | Personal scripts, tools you don't want to share. |
 
 **Summary:**
-- If it's just for **you**, use `~/.local/bin` (easiest, no `sudo` ever).
-- If you want **everyone** to use it, use `/usr/local/bin` (requires `sudo` once to install).
+- If it's just for **you**, use `~/.local/bin` (No `sudo` required).
+- If you want **everyone** to use it, use `/usr/local/bin` (Requires `sudo` once to `install/edit`).
 
 ## Type 1 (This User)
 ### Prerequisite
