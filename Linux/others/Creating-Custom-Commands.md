@@ -79,7 +79,7 @@ echo "Installed to ~/.local/bin/mycommand"
 ---
 ### Uninstall
 
-#### Minimal Uninstall Example
+**Minimal Uninstall Example:**
 
 ```sh
 # Remove the actual file
@@ -107,3 +107,6 @@ update the command:
 
 Done.
 
+Uninstall:
+
+- remove `<your-script>` from `/usr/local/bin` 
