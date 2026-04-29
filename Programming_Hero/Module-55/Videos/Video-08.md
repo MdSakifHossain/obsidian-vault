@@ -108,13 +108,51 @@ export default AuthProvider;
 
 ---
 
-- [ ] make the `SignIn/Login` function
+- [ ] make the `SignIn/Login` function and provide the function
 
 ```jsx
+// src/contexts/AuthProvider.jsx
+import React, { useState } from "react";
+import { AuthContext } from "./AuthContext";
+import {
+  createUserWithEmailAndPassword,
+  signInWithEmailAndPassword, // 1. import the fucntion
+} from "firebase/auth";
+import { auth } from "./firebase.init";
 
+const AuthProvider = ({ children }) => {
+  const [user, setUser] = useState(null);
+  const [loading, setLoading] = useState(true);
+
+  const createUser = (email, password) => {
+    setLoading(true);
+    return createUserWithEmailAndPassword(auth, email, password);
+  };
+
+  // 2. Create SignIn Function it will
+  const SingInUser = (email, password) => {
+    setLoading(true); // 3. set loading to true;
+    return signInWithEmailAndPassword(auth, email, password);
+  };
+
+  const authInfo = {
+    createUser,
+    SingInUser, // 4. provide the function for later use;
+    user,
+    loading,
+  };
+
+  return <AuthContext value={authInfo}>{children}</AuthContext>;
+};
+
+export default AuthProvider;
 ```
 
-- [ ] something else...
+---
+
+- [ ] something else
+- [ ] something else
+- [ ] something else
 
 > END
 
