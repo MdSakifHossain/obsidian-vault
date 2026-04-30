@@ -100,8 +100,6 @@ app.post("/user", async () => {
 });
 ```
 
-- [ ] something...
-
 > END
 
 ## Navigation
