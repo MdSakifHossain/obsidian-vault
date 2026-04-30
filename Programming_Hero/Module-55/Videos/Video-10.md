@@ -5,12 +5,18 @@
 > START
 
 - [ ] Create A `Users Collection` in the `smart deals` db. 
-```
-const usersCollection = db.collection("users")
 
+```js
+const usersCollection = db.collection("users");
 ```
+
+- [ ] Create `Post /users`
+
+```js
+app.post("/user", () )
 ```
-- [ ] 
+
+- [ ] something...
 
 > END
 
