@@ -4,6 +4,8 @@
 
 > START
 
+**Backend Stuff**
+
 - [ ] Create A `Users Collection` in the `smart deals` db.
 
 ```js
@@ -20,7 +22,11 @@ app.post("/user", async () => {
 });
 ```
 
-- [ ] something...
+---
+
+**Frontend Stuff**
+
+- [ ] Go to the Register page where you just made the 
 
 > END
 
