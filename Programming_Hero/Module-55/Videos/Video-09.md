@@ -110,7 +110,7 @@ export default Register;
 ---
 
 - [ ] Go to `Navbar.jsx` > import `user` from `AuthContext` and based on the `user` we will hide or show the `Log In` && `Log Out` Button.
-- [ ] Create the `Sign Out` fea
+- [ ] Create the `Sign Out/ Log Out` feature yourself.
 - [ ] something
 
 > END
