@@ -4,7 +4,7 @@
 
 > START
 
-- [ ] Create A `Users Collection` in the `smart deals` db. 
+- [ ] Create A `Users Collection` in the `smart deals` db.
 
 ```js
 const usersCollection = db.collection("users");
@@ -13,7 +13,11 @@ const usersCollection = db.collection("users");
 - [ ] Create `Post /users`
 
 ```js
-app.post("/user", () )
+app.post("/user", async () => {
+  const newUser = req.body;
+  const result = await usersCollection.inserOne(newUser);
+  res.send(result);
+});
 ```
 
 - [ ] something...
