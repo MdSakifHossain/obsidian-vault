@@ -86,7 +86,10 @@ export default Register;
 app.post("/user", async () => {
   const newUser = req.body;
 
-  const email =
+  const email = req.body.email; // 1. get the email address.
+  const query = { email: email }; // 2. make the query 
+  const existingUser = usersCollection.findOne(query);
+
   const result = await usersCollection.inserOne(newUser);
   res.send(result);
 });
