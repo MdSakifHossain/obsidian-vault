@@ -75,7 +75,7 @@ export default AuthProvider;
 
 ---
 
-- [ ] Import that shit in in the `Register.jsx` page
+- [ ] Import that shit in in the `Register.jsx` page. (this is probably it for google login thing)
 
 ```jsx
 import React, { use } from "react";
@@ -107,8 +107,11 @@ const Register = () => {
 export default Register;
 ```
 
+---
+
 - [ ] something
-- [ ] last @5:26
+- [ ] something
+- [ ] something
 
 > END
 
