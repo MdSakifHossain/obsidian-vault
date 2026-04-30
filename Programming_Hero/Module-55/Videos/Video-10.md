@@ -29,10 +29,56 @@ app.post("/user", async () => {
 - [ ] Go to the Register page where you just made the `HangleGoogleSignIn` function.
 
 ```jsx
+import React, { use } from "react";
+import { AuthContext } from "@/contexts/AuthContext";
 
+const Register = () => {
+  const { signInWithGoogle } = use(AuthContext);
+  const handleGoogleButtonCick = () => {
+    signInWithGoogle()
+      .then((result) => {
+        console.log(result);
+
+        // 1. Crete new user variable
+        const newUser = {
+          name: result.user.displayName,
+          email: result.user.email,
+          image: result.user.photoURL,
+        };
+
+        // 2. Create user in the DB
+        // Fetch Start
+        fetch("api-url/users", {
+          method: "POST",
+          headers: {
+            "content-type": "application/json",
+          },
+          body: JSON.stringify(newUser),
+        })
+          .then((res) => res.json())
+          .then((data) => {
+            console.log("data after new user save", data);
+          });
+        // FETCH Completed.
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  };
+
+  return (
+    <div>
+      <p>Register Page...</p>
+    </div>
+  );
+};
+
+export default Register;
 ```
 
-- [ ] something...
+**Backend Stuff:**
+- [ ] With newly made code which is just gonna post on each google login. we will make it a little smart.
+- [ ] Open the 
 
 > END
 
