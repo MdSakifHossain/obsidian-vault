@@ -76,6 +76,37 @@ export default AuthProvider;
 ---
 
 - [ ] Import that shit in in the `Register.jsx` page
+
+```jsx
+import React, { use } from "react";
+import { AuthContext } from "@/contexts/AuthContext"; // 1. Import the context
+
+const Register = () => {
+  const { signInWithGoogle } = use(AuthContext); // 2. import needed things from the context
+  // 3. create a google login button onclick handler
+  const handleGoogleButtonCick = () => {
+    // 4. if in confusion
+    // head to Docs:
+    // https://firebase.google.com/docs/auth/web/google-signin#handle_the_sign-in_flow_with_the_firebase_sdk
+    signInWithGoogle()
+      .then((result) => {
+        console.log(result);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  };
+
+  return (
+    <div>
+      <p>Register Page...</p>
+    </div>
+  );
+};
+
+export default Register;
+```
+
 - [ ] something
 - [ ] last @5:26
 
