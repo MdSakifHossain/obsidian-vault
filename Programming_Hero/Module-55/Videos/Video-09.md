@@ -4,7 +4,10 @@
 
 > START
 
-- [ ] something
+- [ ] said something about login, register kinda stuff that i shall complete that
+- [ ] made the `register.jsx` page.
+- [ ] added path in the router `/register`
+- [ ] 
 
 > END
 
