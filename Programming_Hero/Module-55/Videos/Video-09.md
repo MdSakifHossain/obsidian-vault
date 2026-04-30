@@ -113,7 +113,7 @@ export default Register;
 - [ ] Create the `Sign Out / Log Out` feature yourself.
 - [ ] Based on the `user` there will be some extra links (e.g. My Products, My Bids.) on the `Navbar` which are only visible after a user `Logs In`.
 - [ ] Make `My Products` && `My Bids` Private so it will wont be accessible without Login.
-- [ ] 
+- [ ] Create the `Sign Out` Function in the `AuthProvider.jsx` file. (same as other stuffs. set loading to true, then the sign out function and then provide it for later usage)
 
 > END
 
