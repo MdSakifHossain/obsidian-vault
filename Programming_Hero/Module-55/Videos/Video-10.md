@@ -90,8 +90,9 @@ app.post("/user", async () => {
   const query = { email: email }; // 2. make the query with which we will find out with it later
   const existingUser = usersCollection.findOne(query); // 3. get the value if the user is there or not
 
+  // 4. if the user is there in the DB then dont need to insert it else insert it
   if (existingUser) {
-    res.send("User Already Exists. No need to insert again!");
+    res.send({ message: "User Already Exists. No need to insert again!" });
   } else {
     const result = await usersCollection.inserOne(newUser);
     res.send(result);
