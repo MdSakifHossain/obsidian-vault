@@ -1,4 +1,4 @@
-# Module 55 Video 9
+# 55-9 Implement Register & Social Login feature
 
 ⬅️ [Module 55](../Module-55.md)
 
