@@ -12,7 +12,7 @@
 const usersCollection = db.collection("users");
 ```
 
-- [ ] Create `Post /users`
+- [ ] Create `POST /users` Endpoint:
 
 ```js
 app.post("/user", async () => {
