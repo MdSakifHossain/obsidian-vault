@@ -5,9 +5,10 @@
 > START
 
 - [ ] said something about login, register kinda stuff that i shall complete that
-- [ ] made the `register.jsx` page.
+- [ ] made the `register.jsx` page
 - [ ] added path in the router `/register`
-- [ ] copied the `register` jsx from daisyUI
+- [ ] copied the `register` jsx from daisyUI and did some what-nots to make it look reasonable
+- [ ] 
 
 > END
 
