@@ -1,7 +1,8 @@
 # Todo
 
-- [ ] write some stuff about `systemd` for custom daemons
-- [ ] `Obsidian Vault Observer`: to be a custom command (`style-context.md`)
+- [ ] Write stuff about `systemd` for custom daemons and custom user daemons.
+- [ ] `Obsidian Vault Observer` 
+	- [ ] Make it a custom command. CLI UI: `style-context.md`.
 	- [ ] Add flags for live monitoring. Example `<command> monitor`.
 	- [ ] Add flag for force push. Example `<command> force`.
-- [ ] 
+- [ ] something...

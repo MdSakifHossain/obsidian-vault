@@ -10,6 +10,6 @@
 - DeepSeek
 - Gemini
 - Kimi
-- Z AI
-- Scira AI
-- Qwen AI
+- Z
+- Scira
+- Qwen
