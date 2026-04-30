@@ -73,7 +73,9 @@ const AuthProvider = ({ children }) => {
 export default AuthProvider;
 ```
 
-- [ ] something
+---
+
+- [ ] Import that shit in in the `Register.jsx` page
 - [ ] something
 - [ ] last @5:26
 
