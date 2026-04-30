@@ -115,13 +115,6 @@ export default Register;
 - [ ] Make `My Products` && `My Bids` Private so it will wont be accessible without Login.
 - [ ] Create the `Sign Out` Function in the `AuthProvider.jsx` file. (same as other stuffs. set loading to true, then the sign out function and then provide it for later usage)
 
----
-
-**DB Related Stuff:**
-
-- [ ] Create A `Users Collection` in the `smart deals db`.
-- [ ] 
-
 > END
 
 ## Navigation
