@@ -8,7 +8,17 @@
 - [ ] made the `register.jsx` page
 - [ ] added path in the router `/register`
 - [ ] copied the `register` jsx from daisyUI and did some what-nots to make it look reasonable
-- [ ] last @3:19
+- [ ] added Google login button on the register page
+- [ ] gone to the `Sign in with Google` of `Firebase docs`
+- [ ] now we will work on `Google Provider` in the `AuthProvider.jsx` file
+
+```jsx
+
+```
+
+- [ ] something
+- [ ] something
+- [ ] something
 
 > END
 
