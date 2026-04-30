@@ -4,7 +4,13 @@
 
 > START
 
-- [ ] something
+- [ ] Create A `Users Collection` in the `smart deals` db. 
+```
+const usersCollection = db.collection("users")
+
+```
+```
+- [ ] 
 
 > END
 
