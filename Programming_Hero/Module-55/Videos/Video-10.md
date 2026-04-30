@@ -77,8 +77,22 @@ export default Register;
 ```
 
 **Backend Stuff:**
+
 - [ ] With newly made code which is just gonna post on each google login. we will make it a little smart.
-- [ ] Open the 
+- [ ] Open the API File.
+- [ ] How do we check the duplicate stuff before actually sending the save signal?
+
+```js
+app.post("/user", async () => {
+  const newUser = req.body;
+
+  const email =
+  const result = await usersCollection.inserOne(newUser);
+  res.send(result);
+});
+```
+
+- [ ] something...
 
 > END
 
