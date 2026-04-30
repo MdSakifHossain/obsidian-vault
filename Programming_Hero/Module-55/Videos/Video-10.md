@@ -26,7 +26,13 @@ app.post("/user", async () => {
 
 **Frontend Stuff**
 
-- [ ] Go to the Register page where you just made the 
+- [ ] Go to the Register page where you just made the `HangleGoogleSignIn` function.
+
+```jsx
+
+```
+
+- [ ] something...
 
 > END
 
