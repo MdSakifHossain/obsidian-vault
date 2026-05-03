@@ -2,7 +2,7 @@
 
 ---
 
-# 1) Foundations — what is really going on 🧠
+## 1) Foundations — what is really going on 🧠
 
 - What is an **init system**, and why does Linux need one?
 - What problem does systemd solve compared to older init systems?
@@ -15,7 +15,7 @@
 
 ---
 
-# 2) Boot & lifecycle 🔄
+## 2) Boot & lifecycle 🔄
 
 - What happens during boot in a system using systemd?
 - What is a **target** (e.g., `multi-user.target`, `graphical.target`)?
@@ -26,7 +26,7 @@
 
 ---
 
-# 3) Service files (core skill) 📄
+## 3) Service files (core skill) 📄
 
 - What is the structure of a `.service` file?
 - What do these sections mean:
@@ -46,7 +46,7 @@
 
 ---
 
-# 4) Your use-case (very important) 🎯
+## 4) Your use-case (very important) 🎯
 
 - How do I create a service that:
   - runs **after login**
@@ -64,7 +64,7 @@
 
 ---
 
-# 5) Execution context ⚙️
+## 5) Execution context ⚙️
 
 - Under which user does a service run?
 - How do I run a service as:
@@ -79,7 +79,7 @@
 
 ---
 
-# 6) Dependencies & ordering 🔗
+## 6) Dependencies & ordering 🔗
 
 - How do I ensure my service runs:
   - after GNOME session starts
@@ -93,7 +93,7 @@
 
 ---
 
-# 7) Managing services 🛠️
+## 7) Managing services 🛠️
 
 - How do I:
   - start a service
@@ -112,7 +112,7 @@ systemctl enable my-service
 
 ---
 
-# 8) Debugging (critical skill) 🧯
+## 8) Debugging (critical skill) 🧯
 
 - How do I check logs for a service?
 - What is:
@@ -124,7 +124,7 @@ systemctl enable my-service
 
 ---
 
-# 9) Timers (better than sleep) ⏱️
+## 9) Timers (better than sleep) ⏱️
 
 - What is a **systemd timer**?
 - How is it different from:
@@ -137,7 +137,7 @@ systemctl enable my-service
 
 ---
 
-# 10) Security & control 🔐
+## 10) Security & control 🔐
 
 - What permissions should my service have?
 - What happens if I run everything as root?
@@ -148,7 +148,7 @@ systemctl enable my-service
 
 ---
 
-# 11) Advanced (optional but powerful) ⚡
+## 11) Advanced (optional but powerful) ⚡
 
 - What is a **target** and can I create my own?
 - What is `graphical-session.target`?
@@ -159,7 +159,7 @@ systemctl enable my-service
 
 ---
 
-# 12) Practical design questions (for your project) 🧩
+## 12) Practical design questions (for your project) 🧩
 
 - Should my lock script be:
   - a one-time service
@@ -176,7 +176,7 @@ systemctl enable my-service
 
 ---
 
-# Final instruction
+## Final instruction
 
 Don’t just answer these—**experiment while answering**:
 
