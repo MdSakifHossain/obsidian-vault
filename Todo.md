@@ -6,8 +6,8 @@
 - [ ] Make Paper: `how to scan wifi network to find potential targets`
 - [ ] Make Paper: `explaining the $PATH in linux and how its important for making and running custom commands`.
 - [ ] Write stuff about `systemd` for custom daemons and custom user daemons.
-- [ ] `Obsidian Vault Observer` 
-	- [ ] Make it a custom command. CLI UI: `style-context.md`.
-	- [ ] Add flags for live monitoring. Example `<command> monitor`.
-	- [ ] Add flag for force push. Example `<command> force`.
+- [ ] `Obsidian Vault Observer`
+  - [ ] Make it a custom command. CLI UI: `style-context.md`.
+  - [ ] Add flags for live monitoring. Example `<command> monitor`.
+  - [ ] Add flag for force push. Example `<command> force`.
 - [ ] something...
