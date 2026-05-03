@@ -69,18 +69,12 @@
 - Under which user does a service run?
 - How do I run a service as:
   - root
-
   - my user (`sakif`)
-
 - What environment variables are missing in systemd services?
-
 - Why do GUI-related commands (DBus, GNOME) often fail in services?
-
 - What are:
   - `XDG_RUNTIME_DIR`
-
   - `DBUS_SESSION_BUS_ADDRESS`
-
 - How do I pass environment variables into a systemd service?
 
 ---
@@ -89,16 +83,11 @@
 
 - How do I ensure my service runs:
   - after GNOME session starts
-
   - after network is available
-
 - What do these mean:
   - `After=`
-
   - `Requires=`
-
   - `Wants=`
-
 - What is the difference between:
   - ordering vs dependency
 
@@ -108,19 +97,13 @@
 
 - How do I:
   - start a service
-
   - stop a service
-
   - restart a service
-
 - What does:
   - `enable`
-
   - `disable`
-
   - `daemon-reload`
     mean?
-
 - What happens when I run:
 
 ```bash
@@ -132,15 +115,11 @@ systemctl enable my-service
 # 8) Debugging (critical skill) 🧯
 
 - How do I check logs for a service?
-
 - What is:
   - `journalctl`
-
 - How do I view logs:
   - for a specific service
-
   - in real time
-
 - Why does a service fail silently sometimes?
 
 ---
@@ -148,17 +127,12 @@ systemctl enable my-service
 # 9) Timers (better than sleep) ⏱️
 
 - What is a **systemd timer**?
-
 - How is it different from:
   - cron
-
   - `sleep`
-
 - Can I replace “wait 5 seconds then lock” with a timer?
-
 - What are:
   - `OnBootSec=`
-
   - `OnUnitActiveSec=`
 
 ---
@@ -166,14 +140,10 @@ systemctl enable my-service
 # 10) Security & control 🔐
 
 - What permissions should my service have?
-
 - What happens if I run everything as root?
-
 - How can I restrict a service’s capabilities?
-
 - What is:
   - `ProtectSystem=`
-
   - `PrivateTmp=`
 
 ---
@@ -181,14 +151,10 @@ systemctl enable my-service
 # 11) Advanced (optional but powerful) ⚡
 
 - What is a **target** and can I create my own?
-
 - What is `graphical-session.target`?
-
 - How do I hook into:
   - user login events
-
   - session start events
-
 - What is **linger** (`loginctl enable-linger`)?
 
 ---
@@ -197,22 +163,15 @@ systemctl enable my-service
 
 - Should my lock script be:
   - a one-time service
-
   - or a persistent daemon
-
 - What is better:
   - systemd service
-
   - or a loop script
-
 - What happens if:
   - the service crashes
-
   - GNOME isn’t ready yet
-
 - How do I make it:
   - reliable
-
   - not race-condition dependent
 
 ---
@@ -222,11 +181,8 @@ systemctl enable my-service
 Don’t just answer these—**experiment while answering**:
 
 - create a test service
-
 - break it
-
 - fix it
-
 - check logs
 
 That loop is where the real learning happens.
