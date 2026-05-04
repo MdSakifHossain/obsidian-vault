@@ -164,12 +164,6 @@ systemctl --user daemon-reload
 systemctl --user enable openrgb-off.service
 ```
 
-**What just happened:**
-
-- systemd reread unit files
-- Created a symlink
-- Attached your service to the login event
-
 **Nothing will run yet.**
 
 > Because apparently, systemd is like a stupid guy. He doesn't automatically know if anything has changed. We have to tell him to reload (check if there's anything new in his directory).

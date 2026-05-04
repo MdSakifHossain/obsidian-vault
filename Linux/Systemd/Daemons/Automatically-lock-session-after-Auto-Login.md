@@ -53,41 +53,26 @@ Paste this inside:
 
 ```service
 [Unit]
-Description=Turn off RAM RGB after login
+Description=Auto-lock session after login delay
+After=graphical-session.target
+PartOf=graphical-session.target
 
 [Service]
 Type=oneshot
-ExecStart=/bin/bash -c 'sleep 20 && openrgb --mode off'
+ExecStart=/bin/sh -c 'sleep 3 && loginctl lock-session'
 
 [Install]
 WantedBy=default.target
+
 ```
 
 Save. Exit.
-
-#### What's What
-
-| Section                   | What It Does                                                             |
-| ------------------------- | ------------------------------------------------------------------------ |
-| `[Unit]`                  | Metadata. For humans. systemd doesn't give a fuck. Purely informational. |
-| `[Service]`               | The actual behavior.                                                     |
-| `Type=oneshot`            | Run once and exit. Don't stay alive and don't loop. Perfect for this.    |
-| `ExecStart=...`           | The command. Sleeps 20 seconds, then kills the lights.                   |
-| `[Install]`               | Tells systemd when to trigger this.                                      |
-| `WantedBy=default.target` | Translation: "This is the **login event**."                              |
-
 ### Step 3: Register the Service (One-Time)
 
 ```shell
 systemctl --user daemon-reload
-systemctl --user enable openrgb-off.service
+systemctl --user enable autolock-session.service
 ```
-
-**What just happened:**
-
-- systemd reread unit files
-- Created a symlink
-- Attached your service to the login event
 
 **Nothing will run yet.**
 
