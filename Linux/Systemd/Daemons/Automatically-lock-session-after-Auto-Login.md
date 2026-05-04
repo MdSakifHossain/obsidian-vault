@@ -76,13 +76,7 @@ systemctl --user enable autolock-session.service
 
 **Nothing will run yet.**
 
-> Because apparently, systemd is like a stupid guy. He doesn't automatically know if anything has changed.
->
-> After reloading, he'll see it and say, "Ah, there's a new file." But he's so fucking dumb that he won't just start the thing automatically.
->
-> And then, we have to `enable` that new service file.
->
-> But that thing won't run right away. He'll be like, "I'm  gonna run this after I `Reboot` or `Freshly Powered back On` again."
+> systemctl is a fucking a$#hole
 
 ### Step 4: Test It Now (Optional)
 
