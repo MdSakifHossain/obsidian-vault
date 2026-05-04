@@ -9,5 +9,4 @@
 
 ## Systemd Papers
 
-- [Systemd Question Paper](./papers/Systemd-Question-Paper.md)
-- [Systemd Answer Paper](./papers/Systemd-Answer-Paper.md)
+- [Test for Daemon Wisdom](./papers/Test-for-Daemon-Wisdom.md)
