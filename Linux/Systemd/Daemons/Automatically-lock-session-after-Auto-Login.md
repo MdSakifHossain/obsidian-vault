@@ -98,10 +98,3 @@ systemctl --user start openrgb-off.service
 
 Wait 3 seconds. Screen/Session Locks. Life continues.
 
-### Step 5: Reboot
-
-On next boot:
-
-
----
-
