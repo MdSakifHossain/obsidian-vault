@@ -1,6 +1,6 @@
 # Ubuntu
 
-⬅️ [Linux](Linux.md)
+⬅️ [Distros](../Distros.md)
 
 - [Fresh Ubuntu Install](Fresh-Ubuntu-Install.md)
 - [Ubuntu Look Customization](Ubuntu-Look-Customization.md)
