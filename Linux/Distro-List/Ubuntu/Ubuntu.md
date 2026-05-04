@@ -1,6 +1,6 @@
 # Ubuntu
 
-⬅️ [Distros](../Distros.md)
+⬅️ [Distro-List](Distro-List.md)
 
 - [Fresh Ubuntu Install](Fresh-Ubuntu-Install.md)
 - [Ubuntu Look Customization](Ubuntu-Look-Customization.md)

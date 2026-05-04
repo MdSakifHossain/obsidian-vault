@@ -2,7 +2,7 @@
 
 ## Distro List
 
-- [Distro List](./Distros/Distros.md)
+- [Distro List](Distro-List.md)
 
 ## Others
 
