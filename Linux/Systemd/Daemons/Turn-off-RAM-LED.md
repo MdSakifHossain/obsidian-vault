@@ -1,4 +1,4 @@
-# Automatically Turn Off RAM LEDs
+# Automatically Turn Off RAM LED
 
 ⬅️ [Systemd](../Systemd.md)
 
