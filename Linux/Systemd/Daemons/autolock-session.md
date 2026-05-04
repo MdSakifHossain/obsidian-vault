@@ -34,3 +34,5 @@ system boots
 - Tell it to start on login
 - Add the 3-second delay
 - Put your already-working command inside
+
+## Step-by-Step Setup
