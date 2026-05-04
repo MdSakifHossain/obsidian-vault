@@ -76,13 +76,13 @@ systemctl --user enable autolock-session.service
 
 **Nothing will run yet.**
 
-> Because apparently, systemd is like a stupid guy. He doesn't automatically know if anything has changed. We have to tell him to reload (check if there's anything new in his directory).
+> Because apparently, systemd is like a stupid guy. He doesn't automatically know if anything has changed.
 >
 > After reloading, he'll see it and say, "Ah, there's a new file." But he's so fucking dumb that he won't just start the thing automatically.
 >
 > And then, we have to `enable` that new service file.
 >
-> But that thing won't run right away. He'll be like, "I'm not gonna run until I reboot or get freshly powered on again."
+> But that thing won't run right away. He'll be like, "I'm  gonna run this after I `Reboot` or `Freshly Powered back On` again."
 
 ### Step 4: Test It Now (Optional)
 
@@ -90,7 +90,7 @@ systemctl --user enable autolock-session.service
 systemctl --user start openrgb-off.service
 ```
 
-Wait 20 seconds. RAM goes dark. Life continues.
+Wait 3 seconds. Screen/Session Locks. Life continues.
 
 ### Step 5: Reboot Once. Then Forget This Exists.
 
