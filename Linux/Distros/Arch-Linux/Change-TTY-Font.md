@@ -1,6 +1,6 @@
 # Change TTY Font
 
-⬅️ [Arch Linux](./Arch-Linux.md)
+⬅️ [Arch Linux](Arch-Linux.md)
 
 - **No .ttf allowed:** The TTY is a dumb screen. It only takes `.psf.gz` (ancient bitmap pictures), not modern `.ttf` math fonts.
 - **`kbd` package:** Pre-installed. Gives you the default boring font (`latarcyrheb-sun16`) and the folder to hold them (`/usr/share/kbd/consolefonts/`).

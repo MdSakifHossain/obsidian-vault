@@ -1,6 +1,6 @@
 # Ubuntu Look Customization
 
-⬅️ [Ubuntu](./Ubuntu.md)
+⬅️ [Ubuntu](Ubuntu.md)
 
 ## Understanding
 

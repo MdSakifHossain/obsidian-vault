@@ -2,11 +2,11 @@
 
 ## Ubuntu
 
-- [Ubuntu](./Ubuntu/Ubuntu.md)
+- [Ubuntu](Ubuntu.md)
 
 ## Arch Linux
 
-- [Arch Linux](./Arch-Linux/Arch-Linux.md)
+- [Arch Linux](Arch-Linux.md)
 
 ## Others
 

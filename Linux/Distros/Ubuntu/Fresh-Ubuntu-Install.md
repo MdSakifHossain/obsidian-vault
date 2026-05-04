@@ -1,6 +1,6 @@
 # Fresh Ubuntu Install
 
-⬅️ [Ubuntu](./Ubuntu.md)
+⬅️ [Ubuntu](Ubuntu.md)
 
 > Things to do after a Fresh Ubuntu Install
 

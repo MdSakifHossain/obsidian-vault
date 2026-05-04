@@ -1,6 +1,6 @@
 # Ubuntu Terminal Customization
 
-⬅️ [Ubuntu](./Ubuntu.md)
+⬅️ [Ubuntu](Ubuntu.md)
 
 ## Steps
 
