@@ -2,8 +2,7 @@
 
 ## Distro List
 
-- [Arch Linux](./Distros/Arch-Linux/Arch-Linux.md)
-- [Ubuntu](./Distros/Ubuntu/Ubuntu.md)
+- [Distro List](./Distros/Distros.md)
 
 ## Others
 
