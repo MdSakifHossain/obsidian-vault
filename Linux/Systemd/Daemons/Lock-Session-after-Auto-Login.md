@@ -1,4 +1,4 @@
-# Lock Session
+# Lock Session after Auto Login
 
 ⬅️ [Systemd](../Systemd.md)
 
@@ -76,9 +76,9 @@ systemctl --user enable autolock-session.service
 
 **Nothing will run yet.**
 
-> `Systemctl` is a fucking a$#hole. it is like an old monk. He will not even look at the new service right away. 
+> `Systemctl` is a fucking a$#hole. it is like an `old monk`. He will not even look at the new service right away. 
 > 
-> So, when do the `daemon-reload`, then the monk Opens up his eyes. he then tries to look at its list and then he finds out that `there's a new file`. (He wont do anything until the user actually tells it to do something with it.)
+> So, when do the `daemon-reload`. Then he Opens up his eyes. he then tries to look at its list and then he finds out that `there's a new file`. (He wont do anything until the user actually tells it to do something with it.)
 > 
 > Then the user have to explicitly tell the monk to `enable` that new service file by `explicitly typing out the new files full name`.
 > 
@@ -86,14 +86,14 @@ systemctl --user enable autolock-session.service
 > 	I will not run this until the whole system `boots up again` OR `reboot`.
 > 
 > If you need that service to `run without new boot or reboot` then you have to tell the monk:
-> 	I want this to run now by saying, `start <service-file-full-name>`
+> 	I want this to run now by saying, `start <service-file-name.service>`
 > 
 > Then it will run.
 
 ### Step 4: Test It Now (Optional)
 
 ```shell
-systemctl --user start openrgb-off.service
+systemctl --user start autolock-session.service
 ```
 
 Wait 3 seconds. Screen/Session Locks. Life continues.
