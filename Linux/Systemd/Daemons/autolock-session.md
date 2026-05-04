@@ -25,3 +25,12 @@ system boots
 → Locks user session
 → rule exits
 ```
+
+---
+
+## The Automation
+
+- Create a user-level systemd service
+- Tell it to start on login
+- Add the 3-second delay
+- Put your already-working command inside
