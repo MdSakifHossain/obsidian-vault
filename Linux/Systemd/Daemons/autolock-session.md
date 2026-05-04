@@ -14,12 +14,14 @@ You can automate what would normally require human interaction.
 
 **Then:** Run `loginctl lock-session`
 
+```
 system boots
-→ login succeeds
+→ automatic login succeeds
 → user session starts
 → systemd (user) activates default target
 → your rule is triggered
-→ wait 20 seconds
-→ openrgb --mode off
-→ LEDs turn off
+→ wait 3 seconds
+→ loginctl lock-session
+→ Locks user session
 → rule exits
+```
