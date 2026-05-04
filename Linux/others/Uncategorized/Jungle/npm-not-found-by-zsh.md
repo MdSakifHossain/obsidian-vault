@@ -1,7 +1,5 @@
 # Fixing `npm: command not found` after switching from Bash to Zsh
 
-⬅️ [Others](Linux/others/others.md)
-
 ## 📌 Context
 
 - Switched default shell from **bash → zsh**
