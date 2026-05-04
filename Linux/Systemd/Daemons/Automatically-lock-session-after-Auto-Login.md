@@ -85,7 +85,10 @@ systemctl --user enable autolock-session.service
 > Then he be like: 
 > 	I will not run this until the whole system `boots up again` OR `reboot`.
 > 
-> If you need that service to `ru`
+> If you need that service to `run without new boot or reboot` then you have to tell the monk:
+> 	I want this to run now by saying, `start <service-file-full-name>`
+> 
+> Then it will run.
 
 ### Step 4: Test It Now (Optional)
 
@@ -95,19 +98,10 @@ systemctl --user start openrgb-off.service
 
 Wait 3 seconds. Screen/Session Locks. Life continues.
 
-### Step 5: Reboot Once. Then Forget This Exists.
+### Step 5: Reboot
 
 On next boot:
 
-```
-boot
-→ login
-→ user session starts
-→ systemd --user runs your service
-→ waits 20 seconds
-→ kills RAM RGB
-→ exits quietly
-```
 
 ---
 
