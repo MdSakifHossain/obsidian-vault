@@ -1,4 +1,4 @@
-# Autolock Session
+# Lock Session
 
 ⬅️ [Systemd](../Systemd.md)
 
