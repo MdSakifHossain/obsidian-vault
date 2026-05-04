@@ -5,7 +5,7 @@
 ## Daemons
 
 - [OpenRGB Off](./Daemons/Automatically-turn-off-RAM-LEDs.md)
-- [Autolock Session](./Daemons/autolock-session.md)
+- [Autolock Session](Automatically-Lock-Session-After-Autologin.md)
 
 ## Systemd Papers
 
