@@ -3,9 +3,10 @@
 Here we have `Categorized` and `Uncategorized` Papers
 
 ---
+
 ## Categorized
 
-- [VSCode]()
+- [VSCode](./Categorized/VSCode/VSCode.md)
 
 ## Uncategorized
 

@@ -1,12 +1,9 @@
 # Linux
 
-## Ubuntu
+## Distro List
 
-- [Ubuntu](Ubuntu.md)
-
-## Arch Linux
-
-- [Arch Linux](Arch-Linux.md)
+- [Arch Linux](./Distros/Arch-Linux/Arch-Linux.md)
+- [Ubuntu](./Distros/Ubuntu/Ubuntu.md)
 
 ## Others
 
