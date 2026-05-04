@@ -76,7 +76,7 @@ systemctl --user enable autolock-session.service
 
 **Nothing will run yet.**
 
-> systemctl is a fucking a$#hole
+> systemctl is a fucking a$#hole. it is like an old monk. He will not even look at the new service right away even the `enable` command. So, when do the `daemon-reload`, then the monk Opens up his eyes. he then tries to look at its liks of 
 
 ### Step 4: Test It Now (Optional)
 
