@@ -80,9 +80,12 @@ systemctl --user enable autolock-session.service
 > 
 > So, when do the `daemon-reload`, then the monk Opens up his eyes. he then tries to look at its list and then he finds out that `there's a new file`. (He wont do anything until the user actually tells it to do something with it.)
 > 
-> Then the user have to explicitly tell the monk to `enable` that new service file by explicitly typing out the new files full name.
+> Then the user have to explicitly tell the monk to `enable` that new service file by `explicitly typing out the new files full name`.
 > 
-> then he be like: I will not run this until the whole system boots up again or 
+> Then he be like: 
+> 	I will not run this until the whole system `boots up again` OR `reboot`.
+> 
+> If you need that service to `ru`
 
 ### Step 4: Test It Now (Optional)
 
