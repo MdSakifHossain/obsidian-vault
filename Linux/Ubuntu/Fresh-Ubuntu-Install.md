@@ -54,7 +54,7 @@ sudo apt install gnome-boxes
 ## Setup Phase
 
 1. Setup [WARP Client](https://developers.cloudflare.com/warp-client/get-started/linux/)
-1. Setup [OpenRGB as Daemon on Ubuntu](../../OpenRGB/Automatically-turn-off-RAM-LEDs.md)
+1. Setup [OpenRGB as Daemon on Ubuntu](Automatically-turn-off-RAM-LEDs.md)
 1. Setup [VSCode with the Minimal Looks](../../VSCode/Fresh-VSCode-Install.md)
 1. Setup [Terminal for Good Looks](Ubuntu-Terminal-Customization.md)
 1. Setup [The whole Ubuntu for Good Looks](./Ubuntu-Look-Customization.md)
