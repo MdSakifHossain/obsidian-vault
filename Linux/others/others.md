@@ -1,8 +1,13 @@
 # Others
 
-Here we have Orphans and Connected 
+Here we have `Categorized` and `Uncategorized` Papers
 
 ---
+## Categorized
+
+- [VSCode]()
+
+## Uncategorized
 
 - [npm not found by Zsh](npm-not-found-by-zsh.md)
 - [tree command](tree-command.md)
