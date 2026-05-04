@@ -2,6 +2,10 @@
 
 ---
 
+## Daemons
+
+- [OpenRGB Off](./Daemons/Automatically-turn-off-RAM-LEDs.md)
+
 ## Systemd Papers
 
 - [Systemd Question Paper](./papers/Systemd-Question-Paper.md)

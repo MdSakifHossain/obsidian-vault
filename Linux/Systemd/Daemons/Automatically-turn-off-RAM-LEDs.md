@@ -1,6 +1,6 @@
 # Automatically Turn Off RAM LEDs
 
-⬅️ [OpenRGB](./OpenRGB.md)
+⬅️ [Systemd](../Systemd.md)
 
 You can automate what would normally require human interaction.
 
@@ -101,10 +101,10 @@ No new ideas. No new behavior.
 
 There are **two worlds**:
 
-| Level | Path | Who Owns It | When It Runs |
-|---|---|---|---|
-| System (root) | `/etc/systemd/system/` | Root | At boot |
-| User (you) | `~/.config/systemd/user/` | You | On login |
+| Level         | Path                      | Who Owns It | When It Runs |
+| ------------- | ------------------------- | ----------- | ------------ |
+| System (root) | `/etc/systemd/system/`    | Root        | At boot      |
+| User (you)    | `~/.config/systemd/user/` | You         | On login     |
 
 If you put a file in the user path:
 
@@ -148,14 +148,14 @@ Save. Exit.
 
 #### What's What
 
-| Section | What It Does |
-|---|---|
-| `[Unit]` | Metadata. For humans. systemd doesn't give a fuck. Purely informational. |
-| `[Service]` | The actual behavior. |
-| `Type=oneshot` | Run once and exit. Don't stay alive and don't loop. Perfect for this. |
-| `ExecStart=...` | The command. Sleeps 20 seconds, then kills the lights. |
-| `[Install]` | Tells systemd when to trigger this. |
-| `WantedBy=default.target` | Translation: "This is the **login event**." |
+| Section                   | What It Does                                                             |
+| ------------------------- | ------------------------------------------------------------------------ |
+| `[Unit]`                  | Metadata. For humans. systemd doesn't give a fuck. Purely informational. |
+| `[Service]`               | The actual behavior.                                                     |
+| `Type=oneshot`            | Run once and exit. Don't stay alive and don't loop. Perfect for this.    |
+| `ExecStart=...`           | The command. Sleeps 20 seconds, then kills the lights.                   |
+| `[Install]`               | Tells systemd when to trigger this.                                      |
+| `WantedBy=default.target` | Translation: "This is the **login event**."                              |
 
 ### Step 3: Register the Service (One-Time)
 
