@@ -1,6 +1,6 @@
 # Commit Message Generator
 
-⬅️ [AI](./AI.md)
+⬅️ [AI](AI.md)
 
 Generate a Git commit command.
 

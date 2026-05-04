@@ -1,6 +1,6 @@
 # Font Import Issue
 
-⬅️ [Tailwind](./Tailwind.md)
+⬅️ [Tailwind](Tailwind.md)
 
 I'm so fucking stupid. 😒😒
 

@@ -1,6 +1,6 @@
 # Protect API
 
-⬅️ [API](./API.md)
+⬅️ [API](API.md)
 
 ## Mental Model
 
