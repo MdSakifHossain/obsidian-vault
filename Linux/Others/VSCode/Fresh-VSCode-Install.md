@@ -1,6 +1,6 @@
 # Things to do after a Fresh VSCode Install
 
-⬅️ [VSCode](./VSCode.md)
+⬅️ [VSCode](VSCode.md)
 
 ## Install Extentions
 

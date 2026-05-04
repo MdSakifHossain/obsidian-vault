@@ -11,4 +11,4 @@
 ## Others
 
 - [Systemd](./Systemd/Systemd.md)
-- [Others](Linux/others/others.md)
+- [Others](Linux/Others/others.md)

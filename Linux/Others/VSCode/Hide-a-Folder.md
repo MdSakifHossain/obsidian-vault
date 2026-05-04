@@ -1,6 +1,6 @@
 # Hide a Certain Folder in VSCode
 
-⬅️ [VSCode](./VSCode.md)
+⬅️ [VSCode](VSCode.md)
 
 Well I have done it in a single project (Folder) in VSCode.
 
