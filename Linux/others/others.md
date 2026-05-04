@@ -1,5 +1,9 @@
 # Others
 
+Here we have Orphans and Connected 
+
+---
+
 - [npm not found by Zsh](npm-not-found-by-zsh.md)
 - [tree command](tree-command.md)
 - [Creating Custom Commands](Creating-Custom-Commands-For-Linux.md)
