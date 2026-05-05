@@ -90,4 +90,6 @@ else
 fi
 ```
 
-i want you to make me a single merged script with subcommands like: `./installer.sh install|i` to install the updated or the new script. and `./installer.sh uninstall|remove|rm` to remove the installed script. and. the default value for the `installer install` will be the command dir. and if i set something like: `./installer install -y` to directly install the script. and uninstall will do it to do what it has.
+i want you to make me a single merged script with subcommands like:
+`./installer.sh install|i` to install the script or updated the modified the script.
+`./installer.sh uninstall|remove|rm` to remove/uninstall the installed script. and. the default value for the `installer install` will be the command dir. and if i set something like: `./installer install -y` to directly install the script. and uninstall will do it to do what it has.
