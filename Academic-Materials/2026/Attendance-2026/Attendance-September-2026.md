@@ -72,17 +72,17 @@
 
 | Name        |  Class  | 22<br>`(Tue)` | 23<br>`(Wed)` | 24<br>`(Thu)` | 25<br>`(Fri)` | 26<br>`(Sat)` | 27<br>`(Sun)` | 28<br>`(Mon)` | Total<br>`(n)` |
 | :---------- | :-----: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :------------: |
-| Habiba      |    0    |       p       |       -       |               |       x       |               |               |               |                |
-| An-Nafi     |    0    |       p       |       p       |               |       x       |               |               |               |                |
-| Omor        |    1    |       p       |       p       |               |       x       |               |               |               |                |
-| Nusrat      |    4    |       -       |       -       |               |       x       |               |               |               |                |
-| Yasmin      |    3    |       p       |       p       |               |       x       |               |               |               |                |
-| Liza        |    7    |       p       |       p       |               |       x       |               |               |               |                |
-| Shihab      |    7    |       -       |       -       |               |       x       |               |               |               |                |
-| Drishty     |    7    |       p       |       -       |               |       x       |               |               |               |                |
-| Nishan      |    5    |      2p       |      2p       |               |       x       |               |               |               |                |
-| Alif        |    2    |       p       |       p       |               |       x       |               |               |               |                |
-| Mahmudullah | Nurcery |       p       |       p       |               |       x       |               |               |               |                |
+| Habiba      |    0    |       p       |       -       |       -       |       x       |               |               |               |                |
+| An-Nafi     |    0    |       p       |       p       |       p       |       x       |               |               |               |                |
+| Omor        |    1    |       p       |       p       |       p       |       x       |               |               |               |                |
+| Nusrat      |    4    |       -       |       -       |       -       |       x       |               |               |               |                |
+| Yasmin      |    3    |       p       |       p       |       p       |       x       |               |               |               |                |
+| Liza        |    7    |       p       |       p       |       p       |       x       |               |               |               |                |
+| Shihab      |    7    |       -       |       -       |       -       |       x       |               |               |               |                |
+| Drishty     |    7    |       p       |       -       |       -       |       x       |               |               |               |                |
+| Nishan      |    5    |      2p       |      2p       |      2p       |       x       |               |               |               |                |
+| Alif        |    2    |       p       |       p       |       -       |       x       |               |               |               |                |
+| Mahmudullah | Nurcery |       p       |       p       |       p       |       x       |               |               |               |                |
 
 ### Extra Days
 
