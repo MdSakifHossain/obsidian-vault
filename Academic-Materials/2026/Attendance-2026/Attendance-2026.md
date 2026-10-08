@@ -9,3 +9,4 @@
 - [July 2026](./Attendance-July-2026.md)
 - [August 2026](./Attendance-August-2026.md)
 - [September 2026](./Attendance-September-2026.md)
+- [October 2026](./Attendance-October-2026.md)

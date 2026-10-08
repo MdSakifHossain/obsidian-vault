@@ -86,35 +86,35 @@
 
 ### Extra Days
 
-| Name        |  Class  | 29<br>`(Tue)` | 30<br>`(Wed)` | Total<br>`(n)` |
+| Name        |  Class  | 29<br>`(Tue)` | 30<br>`(Wed)` | Total<br>`(2)` |
 | :---------- | :-----: | :-----------: | :-----------: | :------------: |
-| Habiba      |    0    |               |               |                |
-| An-Nafi     |    0    |               |               |                |
-| Omor        |    1    |               |               |                |
-| Nusrat      |    4    |               |               |                |
-| Yasmin      |    3    |               |               |                |
-| Liza        |    7    |               |               |                |
-| Shihab      |    7    |               |               |                |
-| Drishty     |    7    |               |               |                |
-| Nishan      |    5    |               |               |                |
-| Alif        |    2    |               |               |                |
-| Mahmudullah | Nurcery |               |               |                |
+| Habiba      |    0    |       p       |       p       |       2        |
+| An-Nafi     |    0    |       p       |       p       |       2        |
+| Omor        |    1    |       -       |       -       |       0        |
+| Nusrat      |    4    |       p       |       p       |       2        |
+| Yasmin      |    3    |       p       |       p       |       2        |
+| Liza        |    7    |       p       |       p       |       2        |
+| Shihab      |    7    |       p       |       -       |       1        |
+| Drishty     |    7    |       -       |       -       |       0        |
+| Nishan      |    5    |      2p       |      2p       |       2        |
+| Alif        |    2    |       p       |       p       |       2        |
+| Mahmudullah | Nurcery |       p       |       p       |       2        |
 
 ### Summary
 
-| Name        | Total Attendance<br>`(n)` |
-| :---------- | :-----------------------: |
-| Habiba      |                           |
-| Jerin       |                           |
-| An-Nafi     |                           |
-| Shahin      |                           |
-| Tuhin       |                           |
-| Omor        |                           |
-| Nusrat      |                           |
-| Yasmin      |                           |
-| Liza        |                           |
-| Shihab      |                           |
-| Drishty     |                           |
-| Nishan      |                           |
-| Alif        |                           |
-| Mahmudullah |                           |
+| Name        | Total Attendance<br>`(25)` |
+| :---------- | :------------------------: |
+| Habiba      |             23             |
+| Jerin       |             9              |
+| An_Nafi     |             22             |
+| Shahin      |             5              |
+| Tuhin       |             13             |
+| Omor        |             20             |
+| Nusrat      |             20             |
+| Yasmin      |             21             |
+| Liza        |             24             |
+| Shihab      |             14             |
+| Drishty     |             6              |
+| Nishan      |             23             |
+| Alif        |             17             |
+| Mahmudullah |             25             |
