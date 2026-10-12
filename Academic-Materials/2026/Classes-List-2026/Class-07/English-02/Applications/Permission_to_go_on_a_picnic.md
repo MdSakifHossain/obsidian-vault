@@ -13,5 +13,6 @@ We, the students of your college, would like to inform you that we want to go fo
 
 We, therefore, pray and hope that you would be kind enough to permit us to go on a picnic and oblige thereby. 
 
-Yours obediently,  
+Yours obediently,
+[Your Name]
 The students of Class 7
