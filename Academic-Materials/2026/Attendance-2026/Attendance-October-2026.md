@@ -36,19 +36,19 @@
 | Name        |  Class  | 8<br>`(Thu)` | 9<br>`(Fri)` | 10<br>`(Sat)` | 11<br>`(Sun)` | 12<br>`(Mon)` | 13<br>`(Tue)` | 14<br>`(Wed)` | Total<br>`(n)` |
 | :---------- | :-----: | :----------: | :----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :------------: |
 | Habiba      |    0    |      p       |      x       |       p       |       p       |       p       |               |               |                |
-| Shahin      |    3    |      -       |      x       |       p       |       p       |               |               |               |                |
-| Tuhin       |    3    |      -       |      x       |       p       |       p       |               |               |               |                |
+| Shahin      |    3    |      -       |      x       |       p       |       p       |       -       |               |               |                |
+| Tuhin       |    3    |      -       |      x       |       p       |       p       |       -       |               |               |                |
 | Nusrat      |    4    |      -       |      x       |       -       |       -       |       p       |               |               |                |
-| Yasmin      |    3    |      p       |      x       |       p       |       p       |               |               |               |                |
-| Omor        |    1    |      -       |      x       |       -       |       p       |               |               |               |                |
-| An_Nafi     |    0    |      p       |      x       |       p       |       p       |               |               |               |                |
-| Liza        |    7    |      p       |      x       |       p       |       p       |               |               |               |                |
-| Shihab      |    7    |      -       |      x       |       -       |       -       |               |               |               |                |
-| Drishty     |    7    |      -       |      x       |       -       |       -       |               |               |               |                |
-| Nishan      |    5    |      2p      |      x       |      2p       |               |               |               |               |                |
-| Shonamoni   |    4    |      2p      |      x       |      2p       |               |               |               |               |                |
-| Alif        |    2    |      p       |      x       |       -       |               |               |               |               |                |
-| Mahmudullah | Nurcery |      p       |      x       |       p       |               |               |               |               |                |
+| Yasmin      |    3    |      p       |      x       |       p       |       p       |       -       |               |               |                |
+| Omor        |    1    |      -       |      x       |       -       |       p       |       p       |               |               |                |
+| An_Nafi     |    0    |      p       |      x       |       p       |       p       |       p       |               |               |                |
+| Liza        |    7    |      p       |      x       |       p       |       p       |       -       |               |               |                |
+| Shihab      |    7    |      -       |      x       |       -       |       -       |       -       |               |               |                |
+| Drishty     |    7    |      -       |      x       |       -       |       -       |       -       |               |               |                |
+| Nishan      |    5    |      2p      |      x       |      2p       |      2p       |      2p       |               |               |                |
+| Shonamoni   |    4    |      2p      |      x       |      2p       |      2p       |      2p       |               |               |                |
+| Alif        |    2    |      p       |      x       |       -       |       -       |       p       |               |               |                |
+| Mahmudullah | Nurcery |      p       |      x       |       p       |       p       |       p       |               |               |                |
 
 ### Week 3
 
