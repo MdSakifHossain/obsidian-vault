@@ -74,21 +74,21 @@
 
 | Name        |  Class  | 22<br>`(Thu)` | 23<br>`(Fri)` | 24<br>`(Sat)` | 25<br>`(Sun)` | 26<br>`(Mon)` | 27<br>`(Tue)` | 28<br>`(Wed)` | Total<br>`(n)` |
 | :---------- | :-----: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :------------: |
-| Habiba      |    0    |       p       |       x       |               |               |               |               |               |                |
-| Shahin      |    3    |       p       |       x       |               |               |               |               |               |                |
-| Tuhin       |    3    |       p       |       x       |               |               |               |               |               |                |
-| Mujahid     |    2    |       x       |       x       |               |               |               |               |               |                |
-| Nusrat      |    4    |       x       |       x       |               |               |               |               |               |                |
-| Yasmin      |    3    |       x       |       x       |               |               |               |               |               |                |
-| Omor        |    1    |       x       |       x       |               |               |               |               |               |                |
-| An_Nafi     |    0    |       x       |       x       |               |               |               |               |               |                |
-| Liza        |    7    |       x       |       x       |               |               |               |               |               |                |
-| Shihab      |    7    |       x       |       x       |               |               |               |               |               |                |
-| Drishty     |    7    |       x       |       x       |               |               |               |               |               |                |
-| Nishan      |    5    |       p       |       x       |               |               |               |               |               |                |
-| Shonamoni   |    4    |       p       |       x       |               |               |               |               |               |                |
-| Alif        |    2    |       x       |       x       |               |               |               |               |               |                |
-| Mahmudullah | Nurcery |       x       |       x       |               |               |               |               |               |                |
+| Habiba      |    0    |       p       |       x       |       p       |       p       |               |               |               |                |
+| Shahin      |    3    |       p       |       x       |       p       |       p       |               |               |               |                |
+| Tuhin       |    3    |       p       |       x       |       p       |       p       |               |               |               |                |
+| Mujahid     |    2    |       x       |       x       |       -       |       -       |               |               |               |                |
+| Nusrat      |    4    |       x       |       x       |       -       |       p       |               |               |               |                |
+| Yasmin      |    3    |       x       |       x       |       -       |       p       |               |               |               |                |
+| Omor        |    1    |       x       |       x       |       p       |       p       |               |               |               |                |
+| An_Nafi     |    0    |       x       |       x       |       p       |       p       |               |               |               |                |
+| Liza        |    7    |       x       |       x       |       -       |       p       |               |               |               |                |
+| Shihab      |    7    |       x       |       x       |       p       |       -       |               |               |               |                |
+| Drishty     |    7    |       x       |       x       |       -       |       -       |               |               |               |                |
+| Nishan      |    5    |       p       |       x       |      2p       |      2p       |               |               |               |                |
+| Shonamoni   |    4    |       p       |       x       |      2p       |      2p       |               |               |               |                |
+| Alif        |    2    |       x       |       x       |       p       |       p       |               |               |               |                |
+| Mahmudullah | Nurcery |       x       |       x       |       -       |       p       |               |               |               |                |
 
 ### Extra Days
 
