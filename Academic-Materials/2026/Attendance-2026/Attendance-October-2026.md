@@ -95,37 +95,37 @@
 | Name        |  Class  | 29<br>`(Thu)` | 30<br>`(Fri)` | 31<br>`(Sat)` | Total<br>`(2)` |
 | :---------- | :-----: | :-----------: | :-----------: | :-----------: | :------------: |
 | Habiba      |    0    |       p       |       x       |       p       |       2        |
-| Shahin      |    3    |       p       |       x       |       p       |                |
-| Tuhin       |    3    |       p       |       x       |       p       |                |
-| Mujahid     |    2    |       p       |       x       |       -       |                |
-| Nusrat      |    4    |       p       |       x       |       p       |                |
-| Yasmin      |    3    |       p       |       x       |       p       |                |
-| Omor        |    1    |       p       |       x       |       p       |                |
-| An_Nafi     |    0    |       p       |       x       |       p       |                |
-| Liza        |    7    |       p       |       x       |       p       |                |
-| Shihab      |    7    |       -       |       x       |       -       |                |
-| Drishty     |    7    |       -       |       x       |       -       |                |
-| Nishan      |    5    |      2p       |       x       |      2p       |                |
-| Shonamoni   |    4    |      2p       |       x       |      2p       |                |
-| Alif        |    2    |       p       |       x       |       p       |                |
-| Mahmudullah | Nurcery |       p       |       x       |       p       |                |
+| Shahin      |    3    |       p       |       x       |       p       |       2        |
+| Tuhin       |    3    |       p       |       x       |       p       |       2        |
+| Mujahid     |    2    |       p       |       x       |       -       |       1        |
+| Nusrat      |    4    |       p       |       x       |       p       |       2        |
+| Yasmin      |    3    |       p       |       x       |       p       |       2        |
+| Omor        |    1    |       p       |       x       |       p       |       2        |
+| An_Nafi     |    0    |       p       |       x       |       p       |       2        |
+| Liza        |    7    |       p       |       x       |       p       |       2        |
+| Shihab      |    7    |       -       |       x       |       -       |       0        |
+| Drishty     |    7    |       -       |       x       |       -       |       0        |
+| Nishan      |    5    |      2p       |       x       |      2p       |       2        |
+| Shonamoni   |    4    |      2p       |       x       |      2p       |       2        |
+| Alif        |    2    |       p       |       x       |       p       |       2        |
+| Mahmudullah | Nurcery |       p       |       x       |       p       |       2        |
 
 ### Summary
 
-| Name        | Total Attendance<br>`(n)` |
-| :---------- | :-----------------------: |
-| Habiba      |                           |
-| Shahin      |                           |
-| Tuhin       |                           |
-| Mujahid     |                           |
-| Nusrat      |                           |
-| Yasmin      |                           |
-| Omor        |                           |
-| An_Nafi     |                           |
-| Liza        |                           |
-| Shihab      |                           |
-| Drishty     |                           |
-| Nishan      |                           |
-| Shonamoni   |                           |
-| Alif        |                           |
-| Mahmudullah |                           |
+| Name        | Total Attendance<br>`(25)` |
+| :---------- | :------------------------: |
+| Habiba      |             24             |
+| Shahin      |             20             |
+| Tuhin       |             20             |
+| Mujahid     |   6 # Started form 19th    |
+| Nusrat      |             17             |
+| Yasmin      |             18             |
+| Omor        |             14             |
+| An_Nafi     |             22             |
+| Liza        |             20             |
+| Shihab      |             7              |
+| Drishty     |             1              |
+| Nishan      |             24             |
+| Shonamoni   |             24             |
+| Alif        |             21             |
+| Mahmudullah |             20             |
