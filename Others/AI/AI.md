@@ -1,6 +1,6 @@
 # AI
 
-- [Ask AI](Ask-AI.md)
+- [Ask AI](obsidian-vault/Others/AI/Ask-AI.md)
 - [Commit Message Generator](Commit-Message-Generator.md)
 
 ---
