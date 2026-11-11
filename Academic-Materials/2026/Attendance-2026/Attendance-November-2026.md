@@ -47,10 +47,10 @@
 | An_Nafi     |    0    |      p       |      p       |       p       |       p       |               |       x       |               |                |
 | Liza        |    7    |      p       |      p       |       p       |       p       |               |       x       |               |                |
 | Shihab      |    7    |      p       |      -       |       -       |       p       |               |       x       |               |                |
-| Nishan      |    5    |      2p      |      p       |      2p       |               |               |       x       |               |                |
-| Shonamoni   |    4    |      2p      |      2p      |      2p       |               |               |       x       |               |                |
-| Alif        |    2    |      -       |      -       |       p       |               |               |       x       |               |                |
-| Mahmudullah | Nurcery |      p       |      2p      |      2p       |               |               |       x       |               |                |
+| Nishan      |    5    |      2p      |      p       |      2p       |      2p       |               |       x       |               |                |
+| Shonamoni   |    4    |      2p      |      2p      |      2p       |      2p       |               |       x       |               |                |
+| Alif        |    2    |      -       |      -       |       p       |       -       |               |       x       |               |                |
+| Mahmudullah | Nurcery |      p       |      2p      |      2p       |       p       |               |       x       |               |                |
 
 ### Week 3
 
